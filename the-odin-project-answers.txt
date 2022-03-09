@@ -237,3 +237,31 @@ A: The tag to create an ordered list is <ol>
 
 Q: What HTML tag is used to create list items within both unordered and ordered lists?
 A: The tag to create the list items within the ordered or unordered lists is <li>
+
+---------------------
+LINKS AND IMAGES
+---------------------
+
+Q: What element is used to create a link?
+A: The element used to create links is <a>
+
+Q: What is an attribute?
+A: An attribute gives the element additional information and can act as settings for an element e.g anchor tags have href attribute which allows it to connect pages/sections
+
+Q: What attribute tells links where to go to?
+A: The "href" attribute tells the anchor links where to go
+
+Q: What is the difference between an absolute and relative link?
+A: Absolute link navigates to another domain/site and relative links navigate to the same domain/website
+
+Q: Which element is used to display an image?
+A: The <img> is used to show images on the page
+
+Q: What two attributes do images always need to have?
+A: The two attributes image elements always need are "href" and "alt"
+
+Q: How do you access a parent directory in a filepath?
+A: To access the parent directory via a filepath ../ is used
+
+Q: What are the four main image formats that you can use for images on the web?
+A: The four main image formats are "jpg, png, svg and gif"

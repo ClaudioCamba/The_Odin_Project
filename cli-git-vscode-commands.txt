@@ -39,11 +39,12 @@ CREATE DIRECTORIES
 - [rm -r this] : Deleting Directories (-r)
 - [mv -v a.txt /Users/claudio-camba/foo/] : Moving Files (mv)
 - [mv -v *.txt /Users/claudio-camba/foo/] : Moving All Files Containing .txt (mv)
-- [mv -v a.txt b.txt] : Overwriting Files (mv)
+- [mv -v a.txt b.txt] : Overwriting / Renaming Files (mv)
 - [ls -a ~ | grep L ] : grep is a tool for searching files for search terms (|)]
 - [ls -a ~ | grep _ | sed "s/_/-/g"] : edit files or streams using pattern matching and replacements (sed)
 - [ls -a | grep testing > b.txt] : Writing to a File (>)
 - [code .] : Used inside directory will open the files with VSCode
+- [open (File)] : opens file
 ---------------------
 GIT - CONTROL
 ---------------------
