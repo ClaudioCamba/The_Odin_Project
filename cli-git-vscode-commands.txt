@@ -57,6 +57,8 @@ GIT - CONTROL
 - git commit -m "[note]" : Committing files in staging to be pushed
 - git push or git push origin main : pushing to remote repository
 - git log : Prints commit info e.g author - print history
+- git log --oneline :  prints out just the subject line
+- git shortlog : groups commits by user, again showing just the subject line for concision
 ---------------------
 GIT NOTES
 - The basic Git syntax is program | action | destination.
