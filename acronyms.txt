@@ -1,0 +1,13 @@
+---------------------
+ACRONYMS
+---------------------
+- DNS - Domain Name System
+- HTTPS - Hypertext Transfer Protocol Secure
+- HTTP - Hypertext Transfer Protocol
+- IDE - integrated development environment
+- CLI - Command Line Interface
+- VCS - Version Control System
+- CVCS - Centralized Version Control System
+- LVCS - Local Version Control System
+- DVCS - Distributed Version Control System
+- VPN - 

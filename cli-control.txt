@@ -1,0 +1,64 @@
+---------------------
+COMMAND LINE INTERFACE - CONTROL
+---------------------
+LIST FILES & LINK
+- [~] : Home Directory
+- [pwd] : Present Working Directory
+
+- [ls] : List Files and Directories
+- [ls /Users/claudio-camba/Documents] : Listing Different Directories
+- [ls -a] : Listing All Files - Visible & Hidden Files (-a)
+- [ls -l] : Long Form Listing (-l)
+- [ls -lh] : Human Readable Sizes (-h)
+- [ls -lhS] : Sorting By Size (-S)
+- [ls -lt] : Sorting By Last Modified Time (-t)
+- [ls -lr] : Reverse Sort (-r)
+- [ln a.txt b.txt] : Links (ln)
+
+- [cat b.txt] : See File Contents (cat)
+
+- [ln -f a.txt b.txt] : Forcing a Link (-f)
+- [ln -s a.txt b.txt] : Symbolic Links (-s)
+---------------------
+NAVIGATE
+- [cd ~/Documents] : Change Directories (cd)
+- [cd ..] : Navigate Up (..)
+- [cd] : Navigate Home Directory (cd)
+---------------------
+CREATE DIRECTORIES
+- [mkdir foo] : Creating Directories (mkdir)
+- [mkdir -p a/b/c] : Create Intermediate Directories (-p)
+- [mkdir -v test] : Verbose Output | Prints the result to console (-v)
+- [cp a.txt b.txt] : Copying Single File (cp)
+- [cp a.txt b.txt foo] : Copying Multiple Files - Last Argument Must Be Directory
+- [cp *.txt foo] : Copying Multiple Files - Last Argument Must Be Directory 
+- [cp -Rv test test2] : Copying Directories (-R)
+- [cp -f a.txt b.txt] : Force Overwriting Of a File (-f)
+- [cp -i a.txt b.txt] : Confirm Overwriting Of a File (-i)
+- [rm -v b.txt] : Deleting Files (rm)
+- [rm -r this] : Deleting Directories (-r)
+- [mv -v a.txt /Users/claudio-camba/foo/] : Moving Files (mv)
+- [mv -v *.txt /Users/claudio-camba/foo/] : Moving All Files Containing .txt (mv)
+- [mv -v a.txt b.txt] : Overwriting Files (mv)
+- [ls -a ~ | grep L ] : grep is a tool for searching files for search terms (|)]
+- [ls -a ~ | grep _ | sed "s/_/-/g"] : edit files or streams using pattern matching and replacements (sed)
+- [ls -a | grep testing > b.txt] : Writing to a File (>)
+- [code .] : Used inside directory will open the files with VSCode
+---------------------
+GIT - CONTROL
+---------------------
+- git remote -v : Print repository connection name
+- git config --global color.ui true/false : Activate and deactivate CLI text colour
+- git config --global core.editor "code --wait" : this command will make Visual Studio Code open a new tab with the ability to write your commit message and an optional description below it
+- git status : Print current file staging status
+- git clone [SSH] : Clone repository from github onto local machine
+- git add hello_world.txt : Adds file to staging area in git
+- git commit -m "[note]" : Committing files in staging to be pushed
+- git push or git push origin main : pushing to remote repository
+- git log : Prints commit info e.g author - print history
+---------------------
+GIT NOTES
+- The basic Git syntax is program | action | destination.
+- git add . is read as git | add | ., where the period represents everything in the current directory;
+- git commit -m "message" is read as git | commit -m | "message"; and
+- git status is read as git | status | (no destination).

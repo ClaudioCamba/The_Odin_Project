@@ -1,0 +1,183 @@
+---------------------
+TOP | ASKING FOR HELP
+---------------------
+
+Q: Name at least one thing your question should always include.
+A: Always include information on what solutions you have attempted accompanied by the code (enough code to allow the helper to replicate the issue).
+
+Q: Describe the “XY Problem”.
+A: When a user wants to do X and thinks Y is the solution and asks for help solving Y but Y may not actually be the solution which resorts to time wasted. 
+
+Q: Describe three attributes of a “help vampire”.
+A1: Asks questions that can be googled
+A2: Asks same questions others have already asked
+A3: Isn't interested in getting his questions answered more than trying to get someone else to do their work.
+
+---------------------
+TOP | HOW DOES THE WEB WORK?
+---------------------
+
+Q: What is a network?
+A: A Network of cables connected to data centres which then connects to the user devices
+
+Q: What is the internet?
+A: It is an Infrastructure - Network of computers connected which allow the transfer of data
+
+Q: What is an IP address?
+A: Internet Protocol - A Unique string of numbers identifying your device address on the internet / local network - They help computers find each other
+
+Q: What is a router?
+A: Router is small device which makes sure the sent / received data (packets) reaches the correct location / destination
+
+Q: What is an ISP?
+A: Internet Service Provider e.g Virgin / Talktalk - They manage special routers that are all linked together and can also access other ISPs.
+
+Q: What are packets and how are they used to transfer data?
+A: Packets can be any form of data which are broken down into pieces (zeros and ones) which individually make way to the requested destination and reassemble to form the complete data - this allows the client to slowly load the data being received instead of waiting longer for the complete data.
+
+Q: What is a client?
+A: Client is the device requesting/receiving data/file form the server (Personal / Work - Computers / Phones)
+
+Q: What is a server?
+A: Super computer which stores multiple websites / apps (programs) - They are connected directly to the internet
+
+Q: What is a web page?
+A: A web page are file stored on servers hard drive which can be viewed on web browsers such as chrome, firefox and safari
+
+Q: What is a web server?
+A: A computer software and hardware that accepts HTTPS requests (website requests)
+
+Q: What is a web browser?
+A: Web browser is a piece of software that retrieves and displays web pages
+
+Q: What is a search engine?
+A: A Web service which helps you find other web pages e.g google, bing and yahoo
+
+Q: What is a DNS request?
+A: Domain Name System - DNS Request is when the client makes a request by accessing the DNS server which acts as the internet phonebook 
+
+Q: Which browser are you currently using?
+A: Google Chrome / Safari and occasionally firefox
+
+Q: In your own words, explain what happens when you run a search on google.com.
+A1: An IP request is made which goes through my ISP cables to a router that directs the request to the correct server which handles the request 
+A2: The google site / file is broken into pieces called packets that are sent back to my IP address - independently the packets navigate to my IP utilising the routers and once they reach my IP they begin reassembling back to the complete file.
+
+---------------------
+COMMAND LINE BASICS
+---------------------
+
+Q: What is the command line?
+A: (CLI) Command Line Interface is a program which allows you to enter commands that your computer will run for you.
+
+Q: How do you open the command line on your computer?
+A: CMD + SPACE - Search for "Terminal" to open the command line
+
+Q: How can you navigate to a particular directory?
+A: By entering "cd " followed by directory path e.g cd folder/folder/folder-destination
+
+Q: Where will cd on its own navigate you to?
+A: It will take you to the Home Directory (/Users/claudio-camba)
+
+Q: Where will cd .. navigate you to?
+A: It will navigate you one directory up the branch / Navigate one step out of current directory
+
+Q: How do you display the name of the directory you are currently in?
+A: By using the command "pwd" which logs your current directory
+
+Q: How do you display the contents of the directory you are currently in?
+A: by using the command "ls -l"
+
+Q: How do you create a new directory?
+A: By using the command "mkdir [folder]"
+
+Q: How do you create a new file?
+A: By using the command "touch [file]"
+
+Q: How do you destroy a directory or file?
+A: "rm -r [directory]" to remove directory and "rm -v [file]"
+
+Q: How do you rename a directory or file?
+A: By using the "mv" command e.g (mv script.js scrap.js)
+
+---------------------
+INTRODUCTION TO GIT
+---------------------
+Q: What kind of program is Git?
+A: Git is a version control system which saves changes made to a file and allows the user to revert back to any of the saved check points.
+
+Q: What are the differences between Git and a text editor in terms of what they save and their record keeping?
+A: Git saves the updates made and keeps record of each saved point while a text editor saves the current file as it is and doesn't allow reverting back to previous saved points.
+
+Q: Does Git work at a local or remote level?
+A: Git works on both local and remote level - git saves locally and allows the data to be pushed online once access to the internet is established.
+
+Q: Does GitHub work at a local or remote level?
+A: Github works on a remote level as it is a website and can only be accessed via the internet.
+
+Q: Why is Git useful for an individual developer?
+A: Git is useful for individual developers because it allows them to recall previous version of the same file instead of saving multiple variations of the same file.
+
+Q: Why are Git and GitHub useful for a team of developers?
+A: They are both useful because they allow the developers to collaborate remotely at the same time and allows them to see each others updates. 
+
+---------------------
+GIT BASICS
+---------------------
+
+Q: How do you create a new repository on GitHub?
+A: Login > Click Repositories Tab > Click Green Button "New" on the top right corner
+
+Q: How do you copy a repository onto your local machine from GitHub?
+A: By using the command "git clone [SSH]" with the correct SSH from the specific repository menu 
+
+Q: What is the default name of your remote connection?
+A: The default name for the remote connection is origin
+
+Q: Explain what origin is in git push origin main.
+A: The origin represents the remote name where the user wants to push the changes 
+
+Q: Explain what main is in git push origin main.
+A: Main is the name of the main branch in the repository where the changes are being pushed to
+
+Q: Explain the two-stage system that Git uses to save files.
+A: Add stage and commit stage are the two stages before pushing to repository
+
+Q: How do you check the status of your current repository?
+A: By using the command "git status"
+
+Q: How do you add files to the staging area in git?
+A: By using the command "git add [File]"
+
+Q: How do you commit the files in the staging area and add a descriptive message?
+A: By using the command "git commit -m "Message" "
+
+Q: How do you push your changes to your repository on GitHub?
+A: By using the command "git push origin main"
+
+Q: How do you look at the history of your previous commits?
+A: By using the command "git log"
+
+---------------------
+INTRODUCTION TO HTML AND  CSS
+---------------------
+
+Q: What do HTML and CSS stand for?
+A: HTML = Hypertext Markup Language | CSS Cascading Style Sheet
+
+Q: Between HTML and CSS, which would you use for putting paragraphs of text on a webpage?
+A: Use HTML to place content (paragraphs) onto the page
+
+Q: Between HTML and CSS, which would you use for changing the font and background color of a button?
+A: CSS is used to make style changes to content on the page
+
+---------------------
+ELEMENTS AND TAGS
+---------------------
+
+Q: What is an HTML tag?
+A: HTML tags are content wrappers - The browser interprets the tags into specific type of content on the page
+
+Q: What are the three parts of an HTML element?
+A: Opening tag, content and closing tag
+
