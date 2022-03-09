@@ -224,3 +224,16 @@ A: The relationship between two or more elements of the same nested level is sib
 
 Q: How do you create HTML comments?
 A: By wrapping your comment with <!-- COMMENT HERE --> tag/symbols
+
+---------------------
+LIST
+---------------------
+
+Q: What HTML tag is used to create an unordered list?
+A: the tag to create unordered list is <ul>
+
+Q: What HTML tag is used to create an ordered list?
+A: The tag to create an ordered list is <ol>
+
+Q: What HTML tag is used to create list items within both unordered and ordered lists?
+A: The tag to create the list items within the ordered or unordered lists is <li>
