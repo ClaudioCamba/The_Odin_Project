@@ -181,3 +181,46 @@ A: HTML tags are content wrappers - The browser interprets the tags into specifi
 Q: What are the three parts of an HTML element?
 A: Opening tag, content and closing tag
 
+---------------------
+HTML BOILERPLATE
+---------------------
+
+Q: What is the purpose of the doctype declaration?
+A: DOCTYPE lets the browser know which version of HTML is being used
+
+Q: What is the HTML element?
+A: The <html> element is the root element which wraps all the other elements within the document
+
+Q: What is the purpose of the head element?
+A: The <head> element is where the meta data and important elements for our webpages to render correctly
+
+Q: What is the purpose of the body element?
+A: The body element is where the content displayed on the web browser window is placed
+
+---------------------
+WORKING WITH TEXT
+---------------------
+
+Q: How do you create a paragraph in HTML?
+A: By using the <p> tag
+
+Q: How do you create a heading in HTML?
+A: By using one of the <h1> to <h6> tags
+
+Q: How many different levels of headings are there and what is the difference between them?
+A: There are 6 different levels of heading they differ in importance e.g <h1> has the highest importance
+
+Q: What element should you use to make text bold and important?
+A: The tag used to make text bold is <strong>
+
+Q: What element should you use to make text italicized to add emphasis to it?
+A: The <em> element is used to make text italic 
+
+Q: What relationship does an element have with any nested elements within it?
+A: the relationship between the two elements is parent (wrapper) and child (nested) 
+
+Q: What relationship do two elements have if they are at the same level of nesting?
+A: The relationship between two or more elements of the same nested level is siblings 
+
+Q: How do you create HTML comments?
+A: By wrapping your comment with <!-- COMMENT HERE --> tag/symbols
