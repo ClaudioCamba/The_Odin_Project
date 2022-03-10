@@ -1,0 +1,7 @@
+---------------------
+DEVELOPER SETUP
+---------------------
+
+VSCODE
+GIT
+GitHub

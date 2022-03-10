@@ -265,3 +265,14 @@ A: To access the parent directory via a filepath ../ is used
 
 Q: What are the four main image formats that you can use for images on the web?
 A: The four main image formats are "jpg, png, svg and gif"
+
+---------------------
+COMMIT MESSAGES
+---------------------
+
+Q: What are two benefits of having well-written commit messages and a good commit history?
+A: Saves time familiarizing old code which inturn saves time
+A: Allows colleagues to under stand what each commit does when collaborating
+
+Q: How many characters should the subject line of your commit message be?
+A: The subject line should be 50 characters
