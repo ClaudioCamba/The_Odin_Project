@@ -2,6 +2,13 @@
 DEVELOPER SETUP
 ---------------------
 
-VSCODE
+VSCODE - download
+- code
+- terminal
+
 GIT
+- download
+
 GitHub
+- sign up
+- pull/push projects
