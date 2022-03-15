@@ -310,4 +310,26 @@ Q: What does a strikethrough in a CSS element mean in your browser’s developer
 A: It means the style has been overridden by another style with higher specificity
 
 Q: How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
-A: You can chnage an elements styling in real time by inspecting it and making changes to its current styling within the CSS Style tab
+A: You can change an elements styling in real time by inspecting it and making changes to its current styling within the CSS Style tab
+
+---------------------
+INSPECTING HTML AND CSS
+---------------------
+
+Q: From inside to outside, what is the order of box-model properties?
+A: Margin, Border, Padding and content
+
+Q: What does the box-sizing CSS property do?
+A: The box-sizing CSS property sets how the total width and height of an element is calculated.
+
+Q: What is the difference between the standard and alternative box model?
+A: The standard box model calculates the height and width by the content and the alternative uses the border, padding and content.
+
+Q: Would you use margin or padding to create more space between 2 elements?
+A: I would use margin to create space between two elements
+
+Q: Would you use margin or padding to create more space between the contents of an element and its border?
+A: I would use padding to create space between the element content and its border 
+
+Q: Would you use margin or padding if you wanted two elements to overlap each other?
+A: I would use margin if I wanted two element to overlap each other
