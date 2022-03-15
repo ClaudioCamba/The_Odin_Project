@@ -298,3 +298,16 @@ A: The descendant combinator allows the style to target multiple elements regard
 
 Q: Between a rule that uses one class selector and a rule that uses three type selectors, which rule has the higher specificity?
 A: The rule that uses one class selector would have a higher specificity
+
+---------------------
+INSPECTING HTML AND CSS
+---------------------
+
+Q: How do you select a specific element on your page with your browser’s developer tools?
+A: You can select specific elements by right clicking the element and selecting inspect or within the inspect panel select the pointer tab and click the element you wish to inspect.
+
+Q: What does a strikethrough in a CSS element mean in your browser’s developer tools?
+A: It means the style has been overridden by another style with higher specificity
+
+Q: How do you change CSS in real time on specific elements of a web page with your browser’s developer tools?
+A: You can chnage an elements styling in real time by inspecting it and making changes to its current styling within the CSS Style tab

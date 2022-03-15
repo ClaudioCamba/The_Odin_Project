@@ -10,6 +10,7 @@ ACRONYMS
 - CVCS - Centralized Version Control System
 - LVCS - Local Version Control System
 - DVCS - Distributed Version Control System
+- IDE - Integrated Development Environment
 
 ---------------------
 NOTES
