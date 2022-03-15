@@ -313,7 +313,7 @@ Q: How do you change CSS in real time on specific elements of a web page with yo
 A: You can change an elements styling in real time by inspecting it and making changes to its current styling within the CSS Style tab
 
 ---------------------
-INSPECTING HTML AND CSS
+THE BOX MODEL
 ---------------------
 
 Q: From inside to outside, what is the order of box-model properties?
@@ -333,3 +333,25 @@ A: I would use padding to create space between the element content and its borde
 
 Q: Would you use margin or padding if you wanted two elements to overlap each other?
 A: I would use margin if I wanted two element to overlap each other
+
+---------------------
+BLOCK AND INLINE
+---------------------
+
+Q: What is the difference between a block element and an inline element?
+A: Block elements start on a new line and inline elements appear beside elements they are placed next to
+
+Q: What is the difference between an inline element and an inline-block element?
+A: inline block element behaves similarly to inline element but contain block styled padding and margins 
+
+Q: Is an h1 block or inline?
+A: block
+
+Q: Is button block or inline?
+A: inline
+
+Q: Is div block or inline?
+A: block
+
+Q: Is span block or inline?
+A: inline
