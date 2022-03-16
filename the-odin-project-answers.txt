@@ -355,3 +355,15 @@ A: block
 
 Q: Is span block or inline?
 A: inline
+
+---------------------
+INTRODUCTION TO FLEXBOX
+---------------------
+
+Q: What’s the difference between a flex container and a flex item?
+A: Flex container applies to the parent element and its impact on its child elements and flex item focuses on the individual element.
+A: A flex container is any element that has "display: flex" on it. A flex item is any element that lives directly inside of a flex container.
+
+Q: How do you create a flex item?
+A: By setting the direct parent container to "display: flex".
+
