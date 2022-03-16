@@ -367,3 +367,9 @@ A: A flex container is any element that has "display: flex" on it. A flex item i
 Q: How do you create a flex item?
 A: By setting the direct parent container to "display: flex".
 
+---------------------
+GROWING AND SHRINKING
+---------------------
+
+Q: What are the 3 values defined in the shorthand flex property (e.g. flex: 1 1 auto)?
+A: Flex-grow, flex-shrink and flex-basis (flex: 1 1 auto)
