@@ -389,3 +389,16 @@ A: Flex-basis refers to width on a tow
 
 Q: Why do the previous two questions have different answers?
 A: Because flex-direction colum align the direct children vertically and row aligns them horizontally
+
+---------------------
+ALIGNMENT
+---------------------
+
+Q: What is the difference between justify-content and align-items?
+A: Align-items is used to align elements vertically and justify-content is used to align horizontally
+
+Q: How do you use flexbox to completely center a div inside a flex container?
+A: by setting the container element display: flex; align-items: center; justify-content: center
+
+Q: What’s the difference between justify-content: space-between and justify-content: space-around?
+A: space-between equally spaces elements without spaces on the outer sections whilst space-around spaces the elements evenly but it also adds spaces between elements and the edges
