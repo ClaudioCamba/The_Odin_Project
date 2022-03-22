@@ -1,0 +1,9 @@
+
+Basic Operators
+
+Addition +,
+Subtraction -,
+Multiplication *,
+Division /,
+Remainder %,
+Exponentiation **.

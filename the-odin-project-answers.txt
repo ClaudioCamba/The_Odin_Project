@@ -402,3 +402,48 @@ A: by setting the container element display: flex; align-items: center; justify-
 
 Q: What’s the difference between justify-content: space-between and justify-content: space-around?
 A: space-between equally spaces elements without spaces on the outer sections whilst space-around spaces the elements evenly but it also adds spaces between elements and the edges
+
+---------------------
+FUNDAMENTALS PART 1
+---------------------
+
+Q: Name the three ways to declare a variable?
+A: The three ways to declare a variable is by using var, let and const.
+
+Q: Which of the three variable declarations should you avoid and why?
+A: You should avoid using the 'var' declaration because it is less error prone also functions similarly to let
+
+Q: What rules should you follow when naming variables?
+A: Only use letters, numbers and symbols, don't start name with a number or a capital letter and follow the camelCase approach
+
+Q: What should you look out for when using the + operator with numbers and strings?
+A: 
+
+Q: How does the % operator work?
+A: 
+
+Q: Explain the difference between == and ===.
+A: 
+
+Q: When would you receive a NaN result?
+A: 
+
+Q: How do you increment and decrement a number?
+A: 
+
+Q: Explain the difference between prefixing and post-fixing increment/decrement operators.
+A: 
+
+Q: What is operator precedence and how is it handled in JS?
+A: 
+
+Q: How do you access developer tools and the console?
+A: 
+
+Q: How do you log information to the console?
+A: 
+
+Q: What does unary plus operator do to string representations of integers?
+A: 
+
+
