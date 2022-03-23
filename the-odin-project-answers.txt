@@ -417,33 +417,33 @@ Q: What rules should you follow when naming variables?
 A: Only use letters, numbers and symbols, don't start name with a number or a capital letter and follow the camelCase approach
 
 Q: What should you look out for when using the + operator with numbers and strings?
-A: 
+A: The operator + functions differently with number and strings - it merges (concatenates) them
 
 Q: How does the % operator work?
-A: 
+A: The % works as a remainder operator e.g 5%2 = 1 
 
 Q: Explain the difference between == and ===.
-A: 
+A: == equals to and === equals value and type (string / number) - 5 == '5'// false | 5 === '5' // false 
 
 Q: When would you receive a NaN result?
-A: 
+A: When trying to do arithmetic with a non-numeric string
 
 Q: How do you increment and decrement a number?
-A: 
+A: '++' is used to increment and '--' is used to decrement
 
 Q: Explain the difference between prefixing and post-fixing increment/decrement operators.
-A: 
+A: prefix is when the operator is before the variable and postfix is when it's after
 
 Q: What is operator precedence and how is it handled in JS?
-A: 
+A: Every operator has a corresponding precedence number. The one with the larger number executes first. If the precedence is the same, the execution order is from left to right.
 
 Q: How do you access developer tools and the console?
-A: 
+A: By opening the Devtool and selecting the console tab from the tab options 
 
 Q: How do you log information to the console?
-A: 
+A: You log information in the console by using the 'console.log' function
 
 Q: What does unary plus operator do to string representations of integers?
-A: 
+A: It converts the integers type into number
 
 

@@ -1,5 +1,6 @@
-
+---------------------
 Basic Operators
+---------------------
 
 Addition +,
 Subtraction -,
@@ -7,3 +8,41 @@ Multiplication *,
 Division /,
 Remainder %,
 Exponentiation **.
+
+++[var] : increment
+[var]-- : decrement
+
++[string number] : converts into number
+
+---------------------
+Data Types
+---------------------
+
+- Number : The number type represents both integer and floating point numbers.
+- BigInt : In JavaScript, the “number” type cannot represent integer values larger than (253-1) (that’s 9007199254740991), or less than -(253-1) for negatives. It’s a technical limitation caused by their internal representation.
+- String : A string in JavaScript must be surrounded by quotes - Double quotes: "Hello". | Single quotes: 'Hello'. | Backticks: `Hello`.
+- Booleon : The boolean type has only two values: true and false.
+- Null : The special null value does not belong to any of the types described above. It forms a separate type of its own which contains only the null value:
+- Undefined : The special value undefined also stands apart. It makes a type of its own, just like null. The meaning of undefined is “value is not assigned”.
+- Objects & Symbols : All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.
+- Objects & Symbols : The symbol type is used to create unique identifiers for objects. We have to mention it here for the sake of completeness, but also postpone the details till we know objects.
+- typeof : The typeof operator returns the type of the argument. It’s useful when we want to process values of different types differently or just want to do a quick check. A call to typeof x returns a string with the type name:
+
+---------------------
+String
+---------------------
+
+- A template literal looks just like a normal string, but instead of using single or double quote marks (' or "), you use backtick characters (`):
+- ${template} : Template literals respect the line breaks in the source code, so you can write strings that span multiple lines
+e.g below -
+const name = 'Chris';
+const greeting = `Hello, ${name}`;
+console.log(greeting); // "Hello, Chris"
+
+---------------------
+Methods / Functions
+---------------------
+- Methods : Vocabulary time: a method is a bit of functionality that is built into the language or into specific data types
+- prompt()
+- alert() 
+- console.log()
