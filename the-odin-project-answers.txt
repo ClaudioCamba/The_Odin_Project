@@ -447,3 +447,60 @@ Q: What does unary plus operator do to string representations of integers?
 A: It converts the integers type into number
 
 
+---------------------
+FUNDAMENTALS PART 2
+---------------------
+
+Q: What are the eight data types in JavaScript?
+A: number, string, boolean, null, Bigint, undefined, object and symbol.
+
+Q: Which data type is NOT primitive?
+A: Object and symbols
+
+Q: What is the relationship between null and undefined?
+A: They both represent a missing element or value
+
+Q: What is the difference between single, double, and backtick quotes for strings?
+A: There is very little difference between single and double quotes but backtick quote allows for template literal
+
+Q: What is the term for embedding variables/expressions in a string?
+A: The term used for embedding into a string is "concatenate" 
+
+Q: Which type of quote lets you embed variables/expressions in a string?
+A: 
+
+Q: How do you embed variables/expressions in a string?
+A: 
+
+Q: How do you escape characters in a string?
+A: 
+
+Q: What is the difference between the slice/substring/substr string methods?
+A: 
+
+Q: What are the three logical operators and what do they stand for?
+A: 
+
+Q: What are the comparison operators?
+A: 
+
+Q: What are truthy and falsy values?
+A: 
+
+Q: What are the falsy values in JavaScript?
+A: 
+
+Q: What are conditionals?
+A: 
+
+Q: What is the syntax for an if/else conditional?
+A: 
+
+Q: What is the syntax for a switch statement?
+A: 
+
+Q: What is the syntax for a ternary operator?
+A: 
+
+Q: What is nesting?
+A: 

@@ -1,7 +1,6 @@
 ---------------------
 Basic Operators
 ---------------------
-
 Addition +,
 Subtraction -,
 Multiplication *,
@@ -17,7 +16,6 @@ Exponentiation **.
 ---------------------
 Data Types
 ---------------------
-
 - Number : The number type represents both integer and floating point numbers.
 - BigInt : In JavaScript, the “number” type cannot represent integer values larger than (253-1) (that’s 9007199254740991), or less than -(253-1) for negatives. It’s a technical limitation caused by their internal representation.
 - String : A string in JavaScript must be surrounded by quotes - Double quotes: "Hello". | Single quotes: 'Hello'. | Backticks: `Hello`.
@@ -31,7 +29,6 @@ Data Types
 ---------------------
 String
 ---------------------
-
 - A template literal looks just like a normal string, but instead of using single or double quote marks (' or "), you use backtick characters (`):
 - ${template} : Template literals respect the line breaks in the source code, so you can write strings that span multiple lines
 e.g below -
@@ -46,3 +43,32 @@ Methods / Functions
 - prompt()
 - alert() 
 - console.log()
+- new date().getDay()
+
+---------------------
+Statements
+---------------------
+- switch
+e.g 
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+     day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case 6:
+    day = "Saturday";
+}
