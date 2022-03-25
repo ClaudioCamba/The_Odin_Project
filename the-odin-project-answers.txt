@@ -423,7 +423,7 @@ Q: How does the % operator work?
 A: The % works as a remainder operator e.g 5%2 = 1 
 
 Q: Explain the difference between == and ===.
-A: == equals to and === equals value and type (string / number) - 5 == '5'// false | 5 === '5' // false 
+A: == equals to and === equals value and type (string / number) - 5 == '5'// true | 5 === '5' // false 
 
 Q: When would you receive a NaN result?
 A: When trying to do arithmetic with a non-numeric string
@@ -521,3 +521,19 @@ A: ( condition ) ? run this code : run this code instead
 
 Q: What is nesting?
 A: Nesting is when placing a statement within another statement e.g putting one if...else statement inside another one — to nest them.
+
+---------------------
+JAVASCRIPT DEVELOPER TOOLS
+---------------------
+
+Q: How do you open developer tools?
+A: By inspecting the page or pressing (cmd + option + c)
+
+Q: How do you change screen size of a website using developer tools?
+A: By selecting Toggle device toolbar and choosing responsive and entering the values for height and width 
+
+Q: What is a breakpoint?
+A: Breakpoint is a feature within the devtool which allows you to pause your javascript to facilitate debugging 
+
+Q: How do you set a breakpoint?
+A: It can be set by adding "debugger;" into your code or by utilising the source tab from the dev tool and selecting the script file on the left - then click the line number you wish to set breakpoint at. 

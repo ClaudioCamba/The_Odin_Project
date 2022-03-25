@@ -74,3 +74,8 @@ switch (new Date().getDay()) {
 }
 
 Ternary operator - ( condition ) ? run this code : run this code instead
+
+---------------------
+Debugger
+---------------------
+debugger;
