@@ -464,43 +464,60 @@ Q: What is the difference between single, double, and backtick quotes for string
 A: There is very little difference between single and double quotes but backtick quote allows for template literal
 
 Q: What is the term for embedding variables/expressions in a string?
-A: The term used for embedding into a string is "concatenate" 
+A: The term used for embedding into a string is "Concatenating" 
 
 Q: Which type of quote lets you embed variables/expressions in a string?
-A: 
+A: The backtick quote allows you to embed variables/expressions
 
 Q: How do you embed variables/expressions in a string?
-A: 
+A: By adding the variable name surrounded by these ${[variable here]} symbols
 
 Q: How do you escape characters in a string?
-A: 
+A: By adding a backslash before the character
 
 Q: What is the difference between the slice/substring/substr string methods?
-A: 
+A: slice - accepts negative values and extracts values between the 2 parameter index / substring - doesn't accept negative values / substr - the second parameter specifies the length of the extracted part
 
 Q: What are the three logical operators and what do they stand for?
-A: 
+A: || - OR / && - AND / ! - NOT
 
 Q: What are the comparison operators?
-A: 
+A: They are operators that compare the values and return a Booleon true/false value
 
 Q: What are truthy and falsy values?
-A: 
+A: Truthy values are values that evaluate to True in a boolean context. Falsy values are values that evaluate to False in a boolean context
 
 Q: What are the falsy values in JavaScript?
-A: 
+A: A number 0, an empty string "", null, undefined, and NaN all become false. 
 
 Q: What are conditionals?
-A: 
+A: Conditions are statements which evaluate particular parameters and execute if return true
+- Use if to specify a block of code to be executed, if a specified condition is true
+- Use else to specify a block of code to be executed, if the same condition is false
+- Use else if to specify a new condition to test, if the first condition is false
+- Use switch to specify many alternative blocks of code to be executed
 
 Q: What is the syntax for an if/else conditional?
-A: 
+A: if (condition) { 
+        code if true 
+    } else { 
+        code if not true 
+    };
 
 Q: What is the syntax for a switch statement?
-A: 
+A: switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+  }
 
 Q: What is the syntax for a ternary operator?
-A: 
+A: ( condition ) ? run this code : run this code instead
 
 Q: What is nesting?
-A: 
+A: Nesting is when placing a statement within another statement e.g putting one if...else statement inside another one — to nest them.

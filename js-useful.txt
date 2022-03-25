@@ -72,3 +72,5 @@ switch (new Date().getDay()) {
   case 6:
     day = "Saturday";
 }
+
+Ternary operator - ( condition ) ? run this code : run this code instead
