@@ -45,6 +45,27 @@ Methods / Functions
 - console.log()
 - new date().getDay()
 
+= Use values within the same object by using methods
+const person = {
+  firstName: "John",
+  lastName: "Doe",
+  id: 5566,
+  fullName: function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+- Note: Parameters are sometimes called arguments, properties, or even attributes.
+
+- Supporting optional parameters
+ 
+function hello(name='Chris') {
+  console.log(`Hello ${name}!`);
+}
+
+hello('Ari'); // Hello Ari!
+hello();      // Hello Chris!
+
 ---------------------
 Statements
 ---------------------
@@ -79,3 +100,4 @@ Ternary operator - ( condition ) ? run this code : run this code instead
 Debugger
 ---------------------
 debugger;
+
