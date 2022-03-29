@@ -536,4 +536,26 @@ Q: What is a breakpoint?
 A: Breakpoint is a feature within the devtool which allows you to pause your javascript to facilitate debugging 
 
 Q: How do you set a breakpoint?
-A: It can be set by adding "debugger;" into your code or by utilising the source tab from the dev tool and selecting the script file on the left - then click the line number you wish to set breakpoint at. 
+A: It can be set by adding "debugger;" into your code or by utilising the source tab from the dev tool and selecting the script file on the left - then click the line number you wish to set breakpoint.
+
+---------------------
+FUNDAMENTALS PART 3
+---------------------
+
+Q: What are functions useful for?
+A: They are useful for storing a piece of coe which does a single task and can be recalled with a single short command.
+
+Q: How do you invoke a function?
+A: You can invoke functions by writing the their name followed by parentheses.
+
+Q: What are anonymous functions?
+A: They are functions without a name being declared
+
+Q: What is function scope?
+A: That is the code block within the function, the scope outside of the function is called the global scope
+
+Q: What are return values?
+A: They are values which are the result from the function
+
+Q: What are arrow functions?
+A: They are similar to normal functions but mainly used for one liner functions
