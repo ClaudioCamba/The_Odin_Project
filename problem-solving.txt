@@ -1,0 +1,33 @@
+---------------------
+PROBLEM SOLVING
+---------------------
+UNDERSTAND THE PROBLEM
+
+The first step to solving a problem is understanding exactly what the problem is. 
+If you don’t understand the problem you won’t know when you’ve successfully solved it and may waste a lot of time on a wrong solution.
+
+To gain clarity and understanding of the problem, write it down on paper, 
+reword it in plain English until it makes sense to you, and draw diagrams if that helps. 
+When you can explain the problem to someone else in plain English, you understand it.
+
+---------------------
+PLAN
+- Does your program have a user interface? What will it look like? What functionality will the interface have? Sketch this out on paper.
+- What inputs will your program have? Will the user enter data or will you get input from somewhere else?
+- What’s the desired output?
+- Given your inputs, what are the steps necessary to return the desired output?
+
+---------------------
+PSEUDOCODE
+
+Pseudocode is writing out the logic for your program in natural language instead of code. 
+It helps you slow down and think through the steps your program will have to go through to solve the problem.
+
+---------------------
+DIVIDE AND CONQUER
+
+From your planning, you should have identified some subproblems of the big problem you’re solving. 
+Each of the steps in the algorithm we wrote out in the last section are subproblems. Pick the smallest or simplest one and start there with coding.
+
+
+

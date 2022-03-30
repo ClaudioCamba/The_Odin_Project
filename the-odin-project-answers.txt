@@ -559,3 +559,28 @@ A: They are values which are the result from the function
 
 Q: What are arrow functions?
 A: They are similar to normal functions but mainly used for one liner functions
+
+---------------------
+PROBLEM SOLVING
+---------------------
+
+Q: What are the three stages in the problem solving process?
+A: Plan, Pseudocode and Divide and conquer
+
+Q: Why is it important to clearly understand the problem first?
+A: This way you solve the correct problem whereas if you don't fully understand the solution may be not relevant for the problem 
+
+Q: What can you do to help get a clearer understanding of the problem?
+A: When down what the program is supposed to do and answer some questions to better understand the problem
+
+Q: What are some of the things you should do in the planning stage of the problem solving process?
+A: Ask questions which allow you to better understand whats required and write the algorithm in plain english
+
+Q: What is an algorithm?
+A: An algorithm are a set of steps taken/executed which lead to a result/solution - recipe to a solution
+
+Q: What is pseudocode?
+A: Pseudocode is writting out the logic for the program in plain language (english) - It helps you understand what you will need to solve 
+
+Q: What are the advantages of breaking a problem down and solving the smaller problems?
+A: It is less over whelming and easier to solve, It also works well with the function approach (each function should do a single task)

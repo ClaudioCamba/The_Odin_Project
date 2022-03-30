@@ -2,16 +2,18 @@
 DEVELOPER SETUP
 ---------------------
 
+---------------------
 VSCODE - download
 - IDE
 - Terminal
 - Supporting add-ons/tools
-
+- Add-ons
+---------------------
 GIT
 - Install homebrew
 - Install Git (brew install git)
 - Check git Version - git --version
-
+---------------------
 GitHub
 - Sign-up
 - pull/push projects
@@ -19,7 +21,7 @@ GitHub
 
 ---------------------
 CHROME DEVTOOL
----------------------
+
 - More options (3 dots) > More tools > CSS Overview
     - Animation inspection
     - CSS inspection (improvement)
