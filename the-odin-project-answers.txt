@@ -580,7 +580,20 @@ Q: What is an algorithm?
 A: An algorithm are a set of steps taken/executed which lead to a result/solution - recipe to a solution
 
 Q: What is pseudocode?
-A: Pseudocode is writting out the logic for the program in plain language (english) - It helps you understand what you will need to solve 
+A: Pseudocode is writing out the logic for the program in plain language (english) - It helps you understand what you will need to solve 
 
 Q: What are the advantages of breaking a problem down and solving the smaller problems?
 A: It is less over whelming and easier to solve, It also works well with the function approach (each function should do a single task)
+
+---------------------
+UNDERSTANDING ERRORS
+---------------------
+
+Q: What are three reasons why you may see a TypeError?
+A: Argument passed to a function is incompatible with the  type expected by that operator, attempting to modify a value that cannot be changed or attempting to use a value in an inappropriate way. 
+
+Q: What is the key difference between an error and a warning?
+A: Error can stop your code from executing whereas warnings are more informational/ potential problems.
+
+Q: What is one method you can use to resolve an error?
+A: Use console.log facilitate the debugging process

@@ -143,3 +143,33 @@ Debugger
 ---------------------
 debugger; - insert into code to add breakpoints which assist when debugging 
 
+
+---------------------
+Errors
+---------------------
+- Uncaught ReferenceError: c is not defined : The SyntaxError object represents an error when trying to interpret syntactically invalid code. It is thrown when the JavaScript engine encounters tokens or token order that does not conform to the syntax of the language when parsing code.
+e.g 
+const a = "Hello"
+const b = "World"
+
+console.log(c)
+
+---------------------
+- Uncaught SyntaxError: Unexpected string : The ReferenceError object represents an error when a variable that doesn't exist (or hasn't yet been initialized) in the current scope is referenced.
+e.g
+function helloWorld() {
+  console.log "Hello World!"
+}
+
+---------------------
+- an operand or argument passed to a function is incompatible with the type expected by that operator or function;
+- or when attempting to modify a value that cannot be changed;
+- or when attempting to use a value in an inappropriate way.
+
+const str1 = "Hello";
+const str2 = "World!";
+const message = str1.push(str2);
+
+---------------------
+Syntax errors: These are spelling errors in your code that actually cause the program not to run at all, or stop working part way through — you will usually be provided with some error messages too. These are usually okay to fix, as long as you are familiar with the right tools and know what the error messages mean!
+Logic errors: These are errors where the syntax is actually correct but the code is not what you intended it to be, meaning that program runs successfully but gives incorrect results. These are often harder to fix than syntax errors, as there usually isn't an error message to direct you to the source of the error.
