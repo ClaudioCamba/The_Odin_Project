@@ -597,3 +597,21 @@ A: Error can stop your code from executing whereas warnings are more information
 
 Q: What is one method you can use to resolve an error?
 A: Use console.log facilitate the debugging process
+
+---------------------
+CLEAN CODE
+---------------------
+
+Q: Why is it important to write clean code?
+A: It makes it easier to maintain/update/read the code by the developer at a later date or their colleagues
+
+Q: Name 5 clean code principles previously mentioned
+A 1: Use comments to explain 'why' the code does what it does,
+  2: Properly format structure to allow the ease of reading and updating,
+  3: Avoid extremely large functions because it can get confusing and its better practice to break it up into smaller functions
+  4: Write down the logic before coding as it helps to better understand the program and whats required
+  5: Use naming standards for functions and variables as it makes it clear what they do or being used for which inturn makes your code manageable 
+
+
+Q: What is the difference between good comments and bad comments?
+A: Good comments explain the code and assist during moments of doubt and bad comments repeat what the code does or portray information that does not assist with understanding the code
