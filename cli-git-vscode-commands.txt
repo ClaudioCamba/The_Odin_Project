@@ -72,5 +72,12 @@ VSCODE - CONTROL
 - ! : Boilerplate
 - cmd + . : typo replacement text
 - Lorem ipsum : start typing to add text placeholder
--
--
+
+---------------------
+NODE
+---------------------
+- nvm --version : check nvm version
+- nvm use --lts : Use the latest version of node
+- node -v : check node version
+- node : This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time
+- .exit : To exit node console inside terminal

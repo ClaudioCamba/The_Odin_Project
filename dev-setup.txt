@@ -1,7 +1,12 @@
 ---------------------
 DEVELOPER SETUP
 ---------------------
-
+---------------------
+NVM - Node Package Manager
+---------------------
+NVM - Node Version Manager
+---------------------
+Node.js
 ---------------------
 VSCODE - download
 - IDE
