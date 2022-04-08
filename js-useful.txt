@@ -44,6 +44,7 @@ Methods / Functions
 - alert() 
 - console.log()
 - new date().getDay()
+- console.dir(variable); 
 ---------------------
 = Use values within the same object by using methods
 const person = {
@@ -233,5 +234,75 @@ Rules of thumb
  
 To Sum Up
 
+---------------------
+Array Loop
+---------------------
+const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
 
+for (const person of people) {
+  if (person === 'Phil' || person === 'Lola') {
+    refused.textContent += `${person}, `;
+  } else {
+    admitted.textContent += `${person}, `;
+  }
+console.log(`${person}`)
+}
+---------------------
+Array Prototype
+// Add a new method
+Array.prototype.myUcase = function() {
+  for (let i = 0; i < this.length; i++) {
+    this[i] = this[i].toUpperCase();
+  }
+};
 
+// Use the method on any array
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.myUcase();
+
+---------------------
+First for...of:
+
+for (const item of array) {
+  // code to run
+}
+for:
+
+for (initializer; condition; final-expression) {
+  // code to run
+}
+while:
+
+initializer
+while (condition) {
+  // code to run
+
+  final-expression
+}
+and finally do...while:
+
+initializer
+do {
+  // code to run
+
+  final-expression
+} while (condition)
+
+---------------------
+Convert Nodelist to Array
+
+let test = Array.from(anchors)
+
+---------------------
+Test Driven Development
+Test Driven Development (TDD) is a phrase you often hear in the dev world. 
+It refers to the practice of writing automated tests that describe how your code should work before you actually write the code. 
+For example, if you want to write a function that adds a couple of numbers, you would first write a test that uses the function and supplies the expected output. 
+The test will fail before you write your code, and you should be able to know that your code works correctly when the test passes.
+
+---------------------
+Deferring the script tag to execute once the page has finished parsing the HTML.
+
+<head>
+ <script src="js-file.js" defer></script>
+</head>

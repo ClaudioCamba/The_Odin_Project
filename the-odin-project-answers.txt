@@ -615,3 +615,37 @@ A 1: Use comments to explain 'why' the code does what it does,
 
 Q: What is the difference between good comments and bad comments?
 A: Good comments explain the code and assist during moments of doubt and bad comments repeat what the code does or portray information that does not assist with understanding the code
+
+---------------------
+FUNDAMENTALS PART 4
+---------------------
+Q: What is an array?
+A: An array is a special variable which can hold more then one value at once.
+
+Q: What are arrays useful for?
+A: They are useful for hold different type of values as a form of list under a single variable name
+
+Q: How do you access an array element?
+A: By referring to their index number "variableName[index]"
+
+Q: How do you change an array element?
+A: By referring the variable with the position index and using the "= " followed by the value you want to change into
+
+Q: What are some useful array properties?
+A: length, construct and prototype
+
+Q: What are some useful array methods?
+A: push, shift, pop and unshift.
+
+Q: What are loops useful for?
+A: Loops are useful for repeating a process multiple times very quickly
+
+Q: What is the break statement?
+A: Break statements stops the loop/ switch currently is progress before reaching the end 
+
+Q: What is the continue statement?
+A: The continue statement allows you to skip to the next iteration of the loop
+
+Q: What is the advantage of writing automated tests?
+A: It allows you to test your code and make sure it works under various conditions
+

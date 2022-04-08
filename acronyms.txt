@@ -11,6 +11,8 @@ ACRONYMS
 - LVCS - Local Version Control System
 - DVCS - Distributed Version Control System
 - IDE - Integrated Development Environment
+- NPM
+- NVM
 
 ---------------------
 NOTES

@@ -59,6 +59,7 @@ GIT - CONTROL
 - git log : Prints commit info e.g author - print history
 - git log --oneline :  prints out just the subject line
 - git shortlog : groups commits by user, again showing just the subject line for concision
+- git reset --soft HEAD^ : uncommit changes back to add
 ---------------------
 GIT NOTES
 - The basic Git syntax is program | action | destination.
@@ -81,3 +82,8 @@ NODE
 - node -v : check node version
 - node : This is quite helpful to debug or test small snippets of your code quickly without opening the browser every time
 - .exit : To exit node console inside terminal
+
+---------------------
+NPM
+---------------------
+- npm --version
