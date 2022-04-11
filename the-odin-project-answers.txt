@@ -649,3 +649,55 @@ A: The continue statement allows you to skip to the next iteration of the loop
 Q: What is the advantage of writing automated tests?
 A: It allows you to test your code and make sure it works under various conditions
 
+---------------------
+DOM MANIPULATION AND EVENTS
+---------------------
+
+Q: What is the DOM?
+A: The DOM is the document object model, its the HTML structure
+
+Q: How do you target the nodes you want to work with?
+A: By using their selectors such as type, class, id or position
+
+Q: How do you create an element in the DOM?
+A: By using the javascript createelement function
+
+Q: How do you add an element to the DOM?
+A: By adding it to my html file manually or by using the javascript append method
+
+Q: How do you remove an element from the DOM?
+A: By using the javascript remove method 
+
+Q: How can you alter an element in the DOM?
+A: You can alter an element in the DOM by using its reference
+
+Q: When adding text to a DOM element, should you use textContent or innerHTML? Why?
+A: Use textContent as innerHTML will override existing html and text instead of just the text
+A: By using innerHTML it could possibly open you code/program to attacks/hackers
+
+Q: Where should you include your JavaScript tag in your HTML file when working with DOM nodes?
+A: Before for closing body tag as that allows the html elements to parse or within the head tag with the "defer" attribute added for it to wait until the html elements  have parsed.
+
+Q: How do “events” and “listeners” work?
+A: Eventlistner wait for an event(click, hover or keydown) to happen before triggering and executing a code
+
+Q: What are three ways to use events in your code?
+A: Eventlistner can be added using inline onclick attribute, external onclick function or by adding the Eventlistner function.
+
+Q: Why are event listeners the preferred way to handle events?
+A: Its clearner way to code and it also allows you to add multiple events which makes it more flexible and powerful
+
+Q: What are the benefits of using named functions in your listeners?
+A: It keeps your code clean and make it easier if the function is needed in multiple sections/elements
+
+Q: How do you attach listeners to groups of nodes?
+A: To add listners to multiple elements you would need to iterate through each element and add by using (forEach) function
+
+Q: What is the difference between the return values of querySelector and querySelectorAll?
+A: querySelector returns the first element that matches the selector whereas the querySelectorAll returns a nodelist of all the elements that match the selector
+
+Q: What does a “nodelist” contain?
+A: It contains a list of elements and within each element attributes which can be utilized 
+
+Q: Explain the difference between “capture” and “bubbling”.
+A: Capturing is the event traveling inwards e.g body > parent > clicked element into the element clicked and bubble is when the event travels outward e.g clicked element > parent > body
