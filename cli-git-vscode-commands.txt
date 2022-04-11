@@ -60,6 +60,13 @@ GIT - CONTROL
 - git log --oneline :  prints out just the subject line
 - git shortlog : groups commits by user, again showing just the subject line for concision
 - git reset --soft HEAD^ : uncommit changes back to add
+- git branch <branch_name> : creating new branch
+- git checkout <branch_name> : change to new branch
+- git checkout -b <branch_name> : create new branch and change to it
+- git branch : see all branches 
+- git checkout main : change to main branch
+- git merge <branch_name> : merging branch named to branch you're currently in
+- git branch -d <branch_name> : deleting named branch
 ---------------------
 GIT NOTES
 - The basic Git syntax is program | action | destination.
