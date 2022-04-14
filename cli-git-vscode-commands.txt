@@ -67,6 +67,8 @@ GIT - CONTROL
 - git checkout main : change to main branch
 - git merge <branch_name> : merging branch named to branch you're currently in
 - git branch -d <branch_name> : deleting named branch
+- git push --delete origin branchName : delete remote repo branch
+- git branch -d branchName : delete local branch
 ---------------------
 GIT NOTES
 - The basic Git syntax is program | action | destination.
