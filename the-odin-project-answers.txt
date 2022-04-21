@@ -701,3 +701,19 @@ A: It contains a list of elements and within each element attributes which can b
 
 Q: Explain the difference between “capture” and “bubbling”.
 A: Capturing is the event traveling inwards e.g body > parent > clicked element into the element clicked and bubble is when the event travels outward e.g clicked element > parent > body
+
+---------------------
+FUNDAMENTALS PART 5
+---------------------
+
+Q: What is the difference between objects and arrays?
+A: Objects can store key:values, while keys must be string the values can be anything.
+
+Q: How do you access object properties?
+A: You can use bracket annotation "obj['key']" or "obj.key"
+
+Q: What is Array.prototype.map() useful for?
+A: It is useful for creating new array variable from existing array;
+
+Q: What is Array.prototype.reduce() useful for?
+A: Its useful to add up and return the total from an array

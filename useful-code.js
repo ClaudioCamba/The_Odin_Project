@@ -84,5 +84,11 @@ let user = { name: "John", age: 30 };
 alert("age" in user); // true, user.age exists
 alert("blabla" in user); // false, user.blabla doesn't exist
 
-// delete key 
-delete Object.key
+
+delete Object.key // delete object key 
+
+// ====================================================================
+// STRING
+// ====================================================================
+
+str.replace(/[^a-zA-Z]/g, '') // Regex to remove any characters that aren't a-z/A-Z

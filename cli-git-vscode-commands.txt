@@ -95,4 +95,5 @@ NODE
 ---------------------
 NPM
 ---------------------
-- npm --version
+- npm --version : get npm version
+- npm test helloWorld.spec.js : test script using terminal
