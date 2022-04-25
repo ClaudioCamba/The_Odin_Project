@@ -716,4 +716,19 @@ Q: What is Array.prototype.map() useful for?
 A: It is useful for creating new array variable from existing array;
 
 Q: What is Array.prototype.reduce() useful for?
-A: Its useful to add up and return the total from an array
+A: Its useful to add up/ join array values and return the total from an array
+
+---------------------
+INTRODUCTION TO THE BACK END
+---------------------
+Q: What is back-end development?
+A: Backend is the part of web development the user doesn't see, it runs on a server separate from the users machine.
+
+Q: How many parts does the backend consist of?
+A: It consists of 3 parts - the server, application and database
+
+Q: Name each part of the backend.
+A: The server, application and database
+
+Q: Where does the backend store its data?
+A: It stores it on a database
