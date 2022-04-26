@@ -2,7 +2,7 @@
 DEVELOPER SETUP
 ---------------------
 ---------------------
-NVM - Node Package Manager
+NPM - Node Package Manager
 ---------------------
 NVM - Node Version Manager
 ---------------------

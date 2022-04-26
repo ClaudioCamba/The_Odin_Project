@@ -13,12 +13,9 @@ ACRONYMS
 - IDE - Integrated Development Environment
 - NPM - Node Package Manager
 - NVM - Node Version Manager
+- MVC - Model View Controller
 
----------------------
-NOTES
----------------------
-
-GIt COMMIT MESSAGES
+GIT COMMIT MESSAGES
 ---------------------
 - Separate subject from body with a blank line
 - Limit the subject line to 50 characters
@@ -27,3 +24,8 @@ GIt COMMIT MESSAGES
 - Use the imperative mood in the subject line
 - Wrap the body at 72 characters
 - Use the body to explain what and why vs. how
+
+---------------------
+NOTES
+---------------------
+

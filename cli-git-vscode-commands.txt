@@ -77,7 +77,7 @@ GIT NOTES
 - git status is read as git | status | (no destination).
 
 ---------------------
-VSCODE - CONTROL
+VSCODE - EMMET
 ---------------------
 - ! : Boilerplate
 - cmd + . : typo replacement text

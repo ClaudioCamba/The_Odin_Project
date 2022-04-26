@@ -732,3 +732,35 @@ A: The server, application and database
 
 Q: Where does the backend store its data?
 A: It stores it on a database
+
+---------------------
+INTRODUCTION TO FRAMEWORKS
+---------------------
+Q: What problems do frameworks solve?
+A: Framework solves the problem of developers re-writing the same code and standardized formatting which allows others to better understand what your code does
+A: Simplify common web development operations.
+
+Q: Name some popular front-end and back-end frameworks.
+A: React, Vue, Angular, Ruby on Rails and NodeJS 
+
+Q: Describe the process of choosing a framework.
+A: How much effort is it to learn, how quickly to implement new features, performance of the frame work, Caching support, Scalability and web security
+A: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_frameworks#how_to_select_a_web_framework
+
+---------------------
+EMMET
+---------------------
+Q: Why should you use Emmet?
+A: Its useful for when writing HTML or CSS, it speeds up writing the code 
+
+Q: What are some useful Emmet abbreviations?
+A: ! - html boilerplate, .class, #id, 
+
+Q: What syntax would you use to create this element <p class="text"></p>?
+A: p.text
+
+Q: What syntax expands to an element with a child element inside of it? For example: <div><p></p></div>
+A: >
+
+Q: What syntax would you use to create three elements that have the same class name?
+A: *3
