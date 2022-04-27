@@ -785,3 +785,21 @@ A: submit, button and reset
 
 Q: What are the two most challenging aspects of styling forms?
 A: checkboxes and radios
+
+---------------------
+FORM VALIDATION
+---------------------
+Q: What does the required validation do?
+A: It stops the user from proceeding if the input value is invalid - it also shows a pop up highlighting the section.  
+
+Q: What validations can you use for checking text length?
+A: maxLength and minLength
+
+Q: How can you validate the minimum and maximum of numeric inputs?
+A: by using the "min" and "max" validation attributes
+
+Q: What can you use the pattern validation for?
+A: It can be used to check if email domain exists within the entered value
+
+Q: What pseudo css selectors are available for styling valid and invalid inputs?
+A: ":valid" is used for valid values and ":invalid" is used for invalid values
