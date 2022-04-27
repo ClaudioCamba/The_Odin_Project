@@ -803,3 +803,15 @@ A: It can be used to check if email domain exists within the entered value
 
 Q: What pseudo css selectors are available for styling valid and invalid inputs?
 A: ":valid" is used for valid values and ":invalid" is used for invalid values
+
+---------------------
+FORM VALIDATION
+---------------------
+Q: What is the xmlns attribute?
+A: Extensible Markup Language NameSpace - This specifies what dialect of XML you’re using–in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly.
+
+Q: What are some situations where you wouldn’t want to use SVG?
+A: If the image contains a lot of detail and textures e.g photos
+
+Q: What are the benefits of “inlining” your SVGs? What are the drawbacks?
+A: It always you to target it and make amendments using css and javascript by targeting its attributes

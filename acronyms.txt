@@ -14,6 +14,9 @@ ACRONYMS
 - NPM - Node Package Manager
 - NVM - Node Version Manager
 - MVC - Model View Controller
+- SVG - Scalable Vector Graphics
+- XML - Extensible Markup Language
+- xmlns - Extensible Markup Language NameSpace
 
 GIT COMMIT MESSAGES
 ---------------------
