@@ -764,3 +764,24 @@ A: >
 
 Q: What syntax would you use to create three elements that have the same class name?
 A: *3
+
+---------------------
+FORM BASICS
+---------------------
+Q: Explain what the form element is for and what two attributes it should always include.
+A: The form element is to get or send data from the user, it can also be used to update UX/UI of the page - it should always include "action" and "method" attributes.
+
+Q: Explain what form controls are at a high level.
+A: labels and input - They allow the user to insert/select data input and also label the input correctly to let the user know what type of data is needed.
+
+Q: What is the name attribute for?
+A: The name attribute is used as an object key for the value selected/entered when sent to the backend.
+
+Q: What are the three most common form controls you can use for allowing users to select predefined options?
+A: checkbox, radio and dropdown
+
+Q: What are the three types of buttons in HTML?
+A: submit, button and reset
+
+Q: What are the two most challenging aspects of styling forms?
+A: checkboxes and radios
