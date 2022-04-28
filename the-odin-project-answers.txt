@@ -865,3 +865,51 @@ A: "letter-spacing" is what is used to increase or decrease spacing between lett
 
 Q: Which property would you use to increase or decrease the space between lines in a paragraph?
 A: "line-height" is what is used to increase or decrease space between lines in a paragraph
+
+---------------------
+MORE CSS PROPERTIES
+---------------------
+Q: Which property would you use to make an element transparent?
+A: "Opacity"
+
+Q: Which property would you use to make a background image tile?
+A: "background-repeat"
+
+Q: Which property would you use to add scrollbars to an element?
+A: "overflow"
+
+Q: Which property would you use to add a shadow behind an element?
+A: "box-shadow"
+
+Q: Which property would you use to create rounded corners on an element?
+A: "border-radius"
+
+Q: How would you use border-radius to make a circular element?
+A: By assigning the value of 50% to it. 
+
+---------------------
+ADVANCED SELECTORS
+---------------------
+Q: What is the difference between the child combinator and the descendant combinator?
+A: child combinator targets the direct children 1 level into the parent element and descendant combinator targets all children or grandchildren which fit the selector.
+
+Q: How does the syntax of pseudo-classes and pseudo-elements differ?
+A: pseudo classes contains single colon ":" whereas pseudo element selector contains double "::"
+
+Q: Do pseudo-classes exist somewhere in HTML? Do pseudo-elements?
+A: pseudo-classes do exists somewhere within the HTML e.g hover, clicked or active - pseudo-elements do not and must be implemented through css
+
+Q: Name two ways you could select every second child of an element, starting with the first.
+A: "first + second" or "first ~ .second-child-class"
+
+Q: What is the difference between div:first-child and div:last-child? What will each select?
+A: div:first-child - selects all div elements which are first child within their parent and div:last-child targets div which are the last child
+
+Q: What selector would you use to style a button a user is currently hovering over? How about one that is currently being clicked on?
+A: button:hover and button:active
+
+Q: How could you select all input elements with a type of text?
+A: input[type=text]
+
+Q: How could you select all classes that begin with thunder?
+A: [class^="thunder"]
