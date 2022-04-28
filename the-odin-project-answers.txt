@@ -838,4 +838,14 @@ DEFAULT STYLES
 Q: Why would you want to use a CSS reset?
 A: To remove the pre-existing styling from the browser, this way the developer is starting with a blank canvas without inconsistencies on various browsers.
 
+---------------------
+CSS UNITS
+---------------------
+Q: Why would you want to use em or rem for font-size instead of px?
+A: To make the text scale responsively based on the root element or parent elements size.
 
+Q: What are some instances where you might want to use vh and vw?
+A: If I wanted to the page to take up the full height/ width, have the font-size respond to viewport width/ height
+
+Q: What are some instances where you might want to use px instead of a relative unit?
+A: When I want the font-size, padding, margin, width or height to remain the same regardless of viewport size or root/parent element font size.
