@@ -831,3 +831,11 @@ A: It is used to add details about the table content - gives readers idea what t
 
 Q: What is the scope attribute?
 A: It is used to tell screenreaders exactly what cells the header is header for
+
+---------------------
+DEFAULT STYLES
+---------------------
+Q: Why would you want to use a CSS reset?
+A: To remove the pre-existing styling from the browser, this way the developer is starting with a blank canvas without inconsistencies on various browsers.
+
+
