@@ -849,3 +849,19 @@ A: If I wanted to the page to take up the full height/ width, have the font-size
 
 Q: What are some instances where you might want to use px instead of a relative unit?
 A: When I want the font-size, padding, margin, width or height to remain the same regardless of viewport size or root/parent element font size.
+
+---------------------
+MORE TEXT STYLES
+---------------------
+Q: What are the 2 ways to add fonts that are not installed on a user’s computer?
+A: By using @import within the css file or by placing the appropriate tags within the page header which pulls the font into your page. 
+
+Q: What is the ‘system font stack’ and why would you want to use it?
+A: font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+A: Because they are system fonts they are more reliable as fallback fonts incase the imported fonts doesn't load or the browser doesn't support the font format.
+
+Q: Which property would you use to increase or decrease the space between letters in a word?
+A: "letter-spacing" is what is used to increase or decrease spacing between letters
+
+Q: Which property would you use to increase or decrease the space between lines in a paragraph?
+A: "line-height" is what is used to increase or decrease space between lines in a paragraph
