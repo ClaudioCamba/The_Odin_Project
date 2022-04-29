@@ -926,3 +926,16 @@ A: It is useful for positioning elements within a specific section of te page wi
 
 Q: What is the difference between fixed and sticky positioning?
 A: Fixed allows you to position elements at a particular point in the viewport and it remains as you scroll and sticky behaves similar to relative and becomes fixed once it reach's the viewport edges.
+
+---------------------
+CSS FUNCTIONS
+---------------------
+
+Q: What are the four CSS math functions we covered above?
+A: calc(), max(), min() and clamp()
+
+Q: How do we use CSS math functions in our CSS?
+A: property : function(Argument,Argument), functions can be used to set color and change element sizes
+
+Q: How can CSS functions help make websites and applications more responsive?
+A: It can have elements resize accordingly based on the available space which helps with layouts and sizing.
