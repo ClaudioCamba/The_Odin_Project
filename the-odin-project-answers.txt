@@ -913,3 +913,16 @@ A: input[type=text]
 
 Q: How could you select all classes that begin with thunder?
 A: [class^="thunder"]
+
+---------------------
+POSITIONING
+---------------------
+
+Q: What is the difference between static and relative positioning?
+A: relative can be moved around the viewport by using left, right, top and bottom whereas static cannot 
+
+Q: What is absolute positioning useful for?
+A: It is useful for positioning elements within a specific section of te page without disturbing other elements  
+
+Q: What is the difference between fixed and sticky positioning?
+A: Fixed allows you to position elements at a particular point in the viewport and it remains as you scroll and sticky behaves similar to relative and becomes fixed once it reach's the viewport edges.
