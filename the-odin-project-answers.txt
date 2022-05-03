@@ -955,3 +955,15 @@ A: :root { --target-all: #000; } - target the root which encompasses all other e
 
 Q: Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account?
 A: @media (prefers-color-theme: dark){} - set it via @media within the stylesheets 
+
+---------------------
+BROWSER COMPATIBILITY
+---------------------
+Q: What is the most used browser currently?
+A: Google Chrome / Chromium 
+
+Q: What was the original name of the first web browser?
+A: CERN / Nexus
+
+Q: How are mobile browsers different on Apple mobile operating systems from Android?
+A: All browsers on Apple mobile use the safari rendering engine regardless of its name - its more of a different coat of paint but the same under the hood.

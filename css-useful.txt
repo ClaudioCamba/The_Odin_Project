@@ -5,3 +5,17 @@ Calc() : Practical purpose of calc(): performing basic math operations, with the
 min(<value-list>): selects the smallest (most negative) value from a list of comma-separated expressions
 max(<value-list>): selects the largest (most positive) value from a list of comma-separated expressions
 clamp(<min>, <ideal>, <max>): clamps a value between an upper and lower bound, based on a set ideal value
+
+---------------------
+CSS Custom Attributes
+---------------------
+@media (prefers-color-scheme: dark) { style attribute: value } : detects what the user Operating System is set to (light/ dark) 
+----------
+:root {
+  --main-color: red;
+}
+
+.cool-paragraph {
+  color: var(--main-color);
+}
+----------
