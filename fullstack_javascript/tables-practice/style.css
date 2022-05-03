@@ -1,4 +1,5 @@
 html {
+  --color-error-text: red;
   font-family: sans-serif;
 }
 
@@ -7,6 +8,7 @@ table {
   border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
   font-size: 0.8rem;
+  color: var(--color-error-text);
 }
 
 td,

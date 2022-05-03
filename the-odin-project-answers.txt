@@ -939,3 +939,19 @@ A: property : function(Argument,Argument), functions can be used to set color an
 
 Q: How can CSS functions help make websites and applications more responsive?
 A: It can have elements resize accordingly based on the available space which helps with layouts and sizing.
+
+---------------------
+CUSTOM PROPERTIES
+---------------------
+
+Q: How would you declare a custom property with a name of text-color?
+A: --text-color: #00;
+
+Q: How would you access a custom property with a name of background-color?
+A:  var(--background-color)
+
+Q: Where would you declare a custom property to have its scope be global and accessible by all other selectors?
+A: :root { --target-all: #000; } - target the root which encompasses all other elements
+
+Q: Where would you declare a custom property so that a user’s theme setting from their OS or browser was taken into account?
+A: @media (prefers-color-theme: dark){} - set it via @media within the stylesheets 

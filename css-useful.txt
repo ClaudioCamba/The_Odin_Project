@@ -1,0 +1,7 @@
+---------------------
+CSS Size functions
+---------------------
+Calc() : Practical purpose of calc(): performing basic math operations, with the ability to interpolate between unit types (ex. rem to vw).
+min(<value-list>): selects the smallest (most negative) value from a list of comma-separated expressions
+max(<value-list>): selects the largest (most positive) value from a list of comma-separated expressions
+clamp(<min>, <ideal>, <max>): clamps a value between an upper and lower bound, based on a set ideal value
