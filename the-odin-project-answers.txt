@@ -103,6 +103,7 @@ A: By using the "mv" command e.g (mv script.js scrap.js)
 ---------------------
 INTRODUCTION TO GIT
 ---------------------
+
 Q: What kind of program is Git?
 A: Git is a version control system which saves changes made to a file and allows the user to revert back to any of the saved check points.
 
@@ -446,7 +447,6 @@ A: You log information in the console by using the 'console.log' function
 Q: What does unary plus operator do to string representations of integers?
 A: It converts the integers type into number
 
-
 ---------------------
 FUNDAMENTALS PART 2
 ---------------------
@@ -619,6 +619,7 @@ A: Good comments explain the code and assist during moments of doubt and bad com
 ---------------------
 FUNDAMENTALS PART 4
 ---------------------
+
 Q: What is an array?
 A: An array is a special variable which can hold more then one value at once.
 
@@ -721,6 +722,7 @@ A: Its useful to add up/ join array values and return the total from an array
 ---------------------
 INTRODUCTION TO THE BACK END
 ---------------------
+
 Q: What is back-end development?
 A: Backend is the part of web development the user doesn't see, it runs on a server separate from the users machine.
 
@@ -736,6 +738,7 @@ A: It stores it on a database
 ---------------------
 INTRODUCTION TO FRAMEWORKS
 ---------------------
+
 Q: What problems do frameworks solve?
 A: Framework solves the problem of developers re-writing the same code and standardized formatting which allows others to better understand what your code does
 A: Simplify common web development operations.
@@ -750,6 +753,7 @@ A: https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Web_fr
 ---------------------
 EMMET
 ---------------------
+
 Q: Why should you use Emmet?
 A: Its useful for when writing HTML or CSS, it speeds up writing the code 
 
@@ -768,6 +772,7 @@ A: *3
 ---------------------
 FORM BASICS
 ---------------------
+
 Q: Explain what the form element is for and what two attributes it should always include.
 A: The form element is to get or send data from the user, it can also be used to update UX/UI of the page - it should always include "action" and "method" attributes.
 
@@ -789,6 +794,7 @@ A: checkboxes and radios
 ---------------------
 FORM VALIDATION
 ---------------------
+
 Q: What does the required validation do?
 A: It stops the user from proceeding if the input value is invalid - it also shows a pop up highlighting the section.  
 
@@ -807,6 +813,7 @@ A: ":valid" is used for valid values and ":invalid" is used for invalid values
 ---------------------
 FORM VALIDATION
 ---------------------
+
 Q: What is the xmlns attribute?
 A: Extensible Markup Language NameSpace - This specifies what dialect of XML you’re using–in our case, that dialect is the SVG language spec. Without it, some browsers will not render your image or will render it incorrectly.
 
@@ -841,6 +848,7 @@ A: To remove the pre-existing styling from the browser, this way the developer i
 ---------------------
 CSS UNITS
 ---------------------
+
 Q: Why would you want to use em or rem for font-size instead of px?
 A: To make the text scale responsively based on the root element or parent elements size.
 
@@ -853,6 +861,7 @@ A: When I want the font-size, padding, margin, width or height to remain the sam
 ---------------------
 MORE TEXT STYLES
 ---------------------
+
 Q: What are the 2 ways to add fonts that are not installed on a user’s computer?
 A: By using @import within the css file or by placing the appropriate tags within the page header which pulls the font into your page. 
 
@@ -869,6 +878,7 @@ A: "line-height" is what is used to increase or decrease space between lines in 
 ---------------------
 MORE CSS PROPERTIES
 ---------------------
+
 Q: Which property would you use to make an element transparent?
 A: "Opacity"
 
@@ -890,6 +900,7 @@ A: By assigning the value of 50% to it.
 ---------------------
 ADVANCED SELECTORS
 ---------------------
+
 Q: What is the difference between the child combinator and the descendant combinator?
 A: child combinator targets the direct children 1 level into the parent element and descendant combinator targets all children or grandchildren which fit the selector.
 
@@ -959,6 +970,7 @@ A: @media (prefers-color-theme: dark){} - set it via @media within the styleshee
 ---------------------
 BROWSER COMPATIBILITY
 ---------------------
+
 Q: What is the most used browser currently?
 A: Google Chrome / Chromium 
 
@@ -967,3 +979,29 @@ A: CERN / Nexus
 
 Q: How are mobile browsers different on Apple mobile operating systems from Android?
 A: All browsers on Apple mobile use the safari rendering engine regardless of its name - its more of a different coat of paint but the same under the hood.
+
+---------------------
+Frameworks and Preprocessors
+---------------------
+
+Q: What are some advantages of using a CSS framework?
+A: Saves time because it speeds up building process, 
+A: pre-existing documentation for the team, 
+A: consistent way of coding and it has been QA'd for faults which you would otherwise have to do,
+A: Online community for support.
+
+Q: What are some disadvantages of using a CSS framework?
+A: Websites begin to look the same,
+A: Hard to remove from project if you decide to change your mind,
+A: Fixing issues you may not need fixing,
+A: Stops new developers from learning CSS fundamentals which is needed to debug frameworks.
+
+Q: What are some advantages of using a CSS preprocessor?
+A: Easier to maintain,
+A: It makes your code more organized,
+A: It makes your code DRY (Don't repeat your self).
+
+Q: What are some disadvantages of using a CSS preprocessor?
+A: Produce very large CSS files,
+A: Debugging is harder,
+A: CSS preprocessors require extra tooling. Code authors shouldn’t be forced to use a particular editor just to be able to use the tool.Also, extra stuff adds complexity.
