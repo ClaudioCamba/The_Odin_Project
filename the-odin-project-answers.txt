@@ -1005,3 +1005,16 @@ Q: What are some disadvantages of using a CSS preprocessor?
 A: Produce very large CSS files,
 A: Debugging is harder,
 A: CSS preprocessors require extra tooling. Code authors shouldn’t be forced to use a particular editor just to be able to use the tool.Also, extra stuff adds complexity.
+
+---------------------
+Introduction to Grid
+---------------------
+
+Q: How can you use Flex to make a two-dimensional layout?
+A: By using the flex-wrap attribute which allows you to wrap your flex items to the next line.
+
+Q: Why was CSS Grid introduced?
+A: To facilitate building layouts for developers instead of using hacky methods such as float
+
+Q: Which CSS layout module would you use to easily make equal sized items in a container?
+A: Grid would make it easier as it allows you to have more control over the elements
