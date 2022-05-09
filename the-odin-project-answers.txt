@@ -1007,7 +1007,7 @@ A: Debugging is harder,
 A: CSS preprocessors require extra tooling. Code authors shouldn’t be forced to use a particular editor just to be able to use the tool.Also, extra stuff adds complexity.
 
 ---------------------
-Introduction to Grid
+INTRODUCTION TO GRID
 ---------------------
 
 Q: How can you use Flex to make a two-dimensional layout?
@@ -1018,3 +1018,22 @@ A: To facilitate building layouts for developers instead of using hacky methods 
 
 Q: Which CSS layout module would you use to easily make equal sized items in a container?
 A: Grid would make it easier as it allows you to have more control over the elements
+
+---------------------
+CREATING A GRID
+---------------------
+
+Q: How does an HTML element become a grid item?
+A: By setting the parent element display to "grid" or "inline-grid"
+
+Q: What is the space between lines on the grid?
+A: It is called "grid track"
+
+Q: How do you set gutters (also known as alleys) in the grid?
+A: by using the "row-gap", "column-gap" or "gap" attributes on the parent element
+
+Q: Describe what happens when you have more content than defined tracks.
+A: It wraps the content onto the next line
+
+Q: How could you change the size for those undefined tracks?
+A: By Setting the "grid-auto-rows" or "grid-auto-columns" on the parent element
