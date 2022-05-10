@@ -1037,3 +1037,23 @@ A: It wraps the content onto the next line
 
 Q: How could you change the size for those undefined tracks?
 A: By Setting the "grid-auto-rows" or "grid-auto-columns" on the parent element
+
+---------------------
+POSITIONING GRID ELEMENTS
+---------------------
+
+Q: Explain the difference between a track and a line.
+A: line are the spaces between the grids and tracks is the direct the grid is going horizontally (row) / vertically (column) 
+A: Lines is what we use to position grids and you can think of a grid track as any single row or column on a grid.
+
+Q: What is the smallest unit on a grid?
+A: Cells are the smallest unit of measurement in a grid.
+
+Q: What kind of value do we give to the grid-column-start or grid-column-end properties?
+A: We give the grid column line number to start and end.
+
+Q: Which property can we use to combine all the start and end values for a grid item?
+A: "grid-area"
+
+Q: Which grid container property can map out a visual structure of grid items?
+A: "grid-template-areas"
