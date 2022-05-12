@@ -1,37 +1,30 @@
-.container {
-  display: inline-grid;
-  grid-template: 40px 40px 40px 40px 40px / 40px 40px 40px 40px 40px;
-  background-color: lightblue;
-  grid-template-areas:
-    "living-room living-room living-room living-room living-room"
-    "living-room living-room living-room living-room living-room"
-    "bedroom bedroom bathroom kitchen kitchen"
-    "bedroom bedroom bathroom kitchen kitchen"
-    "closet closet . . .";
+.grid-container {
+  resize: both;
+  overflow: auto;
+  display: grid;
+  gap: 4px;
+  padding: 4px;
+  border: 1px solid grey;
+  background-color: skyblue;
+  grid-template-rows: repeat(3, 1fr);
+  /* grid-template-columns: repeat(3, clamp(50px, 20%, 150px)); */
+  width: 500px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
-.room {
-  border: 1px solid;
-  font-size: 50%;
+.grid-item {
+  background-color: #444;
   text-align: center;
+  color: #ddd;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  padding: 12px;
 }
 
-#living-room {
-  grid-area: living-room;
+p {
+  margin: 12px auto 24px;
 }
 
-#kitchen {
-  grid-area: kitchen;
-}
-
-#bedroom {
-  grid-area: bedroom;
-}
-
-#bathroom {
-  grid-area: bathroom;
-}
-
-#closet {
-  grid-area: closet;
+img {
+  height: 60px;
 }
