@@ -1088,3 +1088,16 @@ A: "auto-fill" is the attribute used to fill in as many grid tracks as possible
 
 Q: What is the difference between auto-fit and auto-fill?
 A: auto-fit will keep the grid items at their max size and auto-fill the the grid items will snap back down to their min size once the space becomes available.
+
+---------------------
+ADVANCED GRID PROPERTIES
+---------------------
+
+Q: When might you use Flexbox over Grid?
+A: When coding a content first design or coding a module which would require the content position to change (easier with to move content with flexbox)
+
+Q: When might you use Grid over Flexbox?
+A: When coding page layout or creating a dynamic grid
+
+Q: When might you use the two of these tools together?
+A: When centering a grid parent using flexbox and the grid parent containing grid items.
