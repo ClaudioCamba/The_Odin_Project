@@ -1101,3 +1101,32 @@ A: When coding page layout or creating a dynamic grid
 
 Q: When might you use the two of these tools together?
 A: When centering a grid parent using flexbox and the grid parent containing grid items.
+
+---------------------
+OBJECTS AND OBJECT CONSTRUCTORS
+---------------------
+
+Q: Write an object constructor and instantiate the object.
+A: function player(name, age) {
+    this.name = name
+    this.age = age
+    this.sayIt = function () {
+        return 'Hi I\'m ' + this.name + ' I am ' + age + ' years old.'
+    }
+}
+
+const scott = new player('scott', 67);
+
+Q: Describe what a prototype is and how it can be used.
+A: Prototype is an object which has been inherited from an pre-existing object, it can be used to pass functions and methods to new objects
+
+Q: Explain prototypal inheritance.
+A: Prototypal inheritance is a language feature which helps create new slightly modified variations of an object which can also inherit it's methods and functions. 
+
+Q: Understand the basic do’s and don’t’s of prototypical inheritance.
+A: Don't - EighthGrader.prototype = Student.prototype - because it will literally set EighthGrader’s prototype to Student.prototype (i.e. not a copy);
+A: Do - EighthGrader.prototype = Object.create(Student.prototype) - After creating the constructor for EighthGrader, we set its prototype to a new object that has a copy of Student.prototype.
+
+Q: Explain what Object.create does
+A: It creates a new object using an existing object as the prototype of the newly created object.
+

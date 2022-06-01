@@ -84,6 +84,19 @@ let user = { name: "John", age: 30 };
 alert("age" in user); // true, user.age exists
 alert("blabla" in user); // false, user.blabla doesn't exist
 
+// ----------------------------------
+// Object Constructor
+function Book(title, author, pages, read) {
+    this.title = title
+    this.author = author
+    this.pages = pages
+    this.read = read
+    this.info = function () {
+        return title + ' by ' + author + ', ' + pages + ' pages, ' + read;
+    }
+}
+
+const theHobbit = new Book('The Hobbit', 'J.R.R. Tolkien', 295, 'not read yet');
 
 delete Object.key // delete object key 
 
