@@ -17,6 +17,7 @@ ACRONYMS
 - SVG - Scalable Vector Graphics
 - XML - Extensible Markup Language
 - xmlns - Extensible Markup Language NameSpace
+- IIFE - Immediately Invoked Function Expression
 
 GIT COMMIT MESSAGES
 ---------------------

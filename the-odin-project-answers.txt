@@ -1130,3 +1130,82 @@ A: Do - EighthGrader.prototype = Object.create(Student.prototype) - After creati
 Q: Explain what Object.create does
 A: It creates a new object using an existing object as the prototype of the newly created object.
 
+---------------------
+FACTORY FUNCTIONS AND THE MODULE PATTERN
+---------------------
+
+Q: Describe common bugs you might run into using constructors.
+A: Forgeting the word "new" and polluting the namespace (global scope)
+A: Changing the prototype breaks the instanceof 
+
+E.G
+// Constructor
+function C() {}
+ 
+// Create object.
+var c = new C();
+c instanceof C;
+=> true
+c.constructor === C;
+=> true
+ 
+// Change prototype
+C.prototype = { prototype_prop : "proto"};
+c.constructor === C;
+=> true
+c instanceof C;  // instanceof no longer works!
+=> false
+
+Q: Write a factory method that returns an object.
+A:  const factoryReturnObj = (firstname, lastname) => {
+      shoutHi = () => console.log('HELLOOOO!!! ' + firstname + ' ' + lastname);
+      return {firstname, lastname, shoutHi}
+    }
+
+let robert = factoryReturnObj('robert', 'wilson');
+
+robert.shoutHi();
+
+Q: Explain how scope works in JavaScript (bonus points if you can point out what ES6 changed!).
+A: Scope / Global Scope (namespace) defines the level of access you have (any variables/objects/functions defined in its parent scope, are available in the scope chain)
+A: ES6 introduced both const and let which are block scope variables (they will be scoped to the closest set of curly brackets);
+  var age = 100;
+  if(age > 12) {
+    let dogYears = age * 7;
+    console.log(`You are ${dogYears} dog years old!`);
+  }
+  console.log(dogYears); // error because it's scoped only to the above block
+
+Q: Explain what Closure is and how it impacts private functions & variables.
+A: Closure makes the code inside the function inaccessible to the public scope, calling the function alone will do nothing, the function will need to be assigned and then called.
+A: _private functions and variables will be inaccessible unless they are returned by the parent closure function.
+
+Q: Describe how private functions & variables are useful.
+A: They are useful if their sole purpose is to assists the main function they are within, this way its not polluting the namespace (global scope)
+
+Q: Use inheritance in objects using the factory pattern.
+A: 
+  const shoutHello = (firstname) => {
+      shoutHi = () => console.log('HELLOOOO!!! ' + firstname);
+      return { shoutHi }
+  }
+
+  const sayName = (firstname) => {
+      const { shoutHi } = shoutHello(firstname);
+      const quietName = () => { console.log('I am ' + firstname) }
+      return { shoutHi, quietName }
+  }
+
+  let robert = sayName('Robby');
+
+  robert.quietName();
+
+
+Q: Explain the module pattern.
+A: 
+
+Q: Describe IIFE. What does it stand for?
+A: IIFF stands for Immediately invoked function expression  - It means by wrapping a function in parentheses (function)() which will trigger the function Immediately.  
+
+Q: Briefly explain namespacing and how it’s useful.
+A: namespacing is a technique that is used to avoid naming collisions e.g by encapsulating the inner workings of our program into objects.

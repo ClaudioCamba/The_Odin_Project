@@ -1,8 +1,4 @@
-// ====================================================================
-// USEFUL SNIPPETS
-// ====================================================================
-
-// ----------------------------------
+// USEFUL SNIPPETS ====================================================================
 // Get viewport width and height
 var win = window,
     doc = document,
@@ -12,20 +8,16 @@ var win = window,
     y = win.innerHeight || docElem.clientHeight || body.clientHeight;
 alert(x + ' × ' + y);
 
-// ====================================================================
-// EVENTLISTENER
-// ====================================================================
+//  Conditional statement
+var x = y !== undefined ? y : 1;
 
-// ----------------------------------
+// EVENTLISTENER ====================================================================
 // Window resize eventlistner
 window.addEventListener('resize', function (event) {
     console.log(event);
 }, true);
 
-// ====================================================================
-// ARRAY
-// ====================================================================
-
+// ARRAY ====================================================================
 const people = [
     { name: "Wes", year: 1988 },
     { name: "Kait", year: 1986 },
@@ -67,11 +59,8 @@ let index = comments.findIndex((comment) => comment.id === 823423);
 comments.splice(index, 1);
 console.table({ comments });
 
-// ====================================================================
-// OBJECTS
-// ====================================================================
 
-// ----------------------------------
+// OBJECTS ====================================================================
 // Computed Properties
 let fruit = 'apple';
 let bag = {
@@ -98,10 +87,71 @@ function Book(title, author, pages, read) {
 
 const theHobbit = new Book('The Hobbit', 'J.R.R. Tolkien', 295, 'not read yet');
 
+// ----------------------------------
+// Factory Constructor
+const personFactory = (name, age) => {
+    const sayHello = () => console.log('hello!');
+    return { name, age, sayHello };
+};
+
+const jeff = personFactory('jeff', 27);
+
+console.log(jeff.name); // 'jeff'
+
+jeff.sayHello(); // calls the function and logs 'hello!'
+
+// ----------------------------------
 delete Object.key // delete object key 
 
-// ====================================================================
-// STRING
-// ====================================================================
+// ----------------------------------
+// Assign method
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+// STRING ====================================================================
 
 str.replace(/[^a-zA-Z]/g, '') // Regex to remove any characters that aren't a-z/A-Z
+
+// FUNCTIONS ====================================================================
+// Private Scope
+var Module = (function () {
+    var helpers = {
+        name: 'claudio',
+        sayName() {
+            console.log(this.name);
+        }
+    };
+
+    return {
+        publicMethod: function () {
+            helpers.sayName();
+        }
+    };
+})();
+
+Module.publicMethod()
+
+
+const shoutHello = (firstname) => {
+    shoutHi = () => console.log('HELLOOOO!!! ' + firstname);
+    return { shoutHi }
+}
+
+const sayName = (firstname) => {
+    const { shoutHi } = shoutHello(firstname);
+    const quietName = () => { console.log('I am ' + firstname) }
+    return { shoutHi, quietName }
+}
+
+let robert = sayName('Robby');
+
+robert.quietName();
+
