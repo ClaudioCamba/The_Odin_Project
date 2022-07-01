@@ -1202,10 +1202,42 @@ A:
 
 
 Q: Explain the module pattern.
-A: 
+A: The module pattern is similar to factory function but instead of creating multiple objects it is wrapped in a IIFE, it also wrapped within an anonymous closures which only give access to objects that have been returned.
 
 Q: Describe IIFE. What does it stand for?
 A: IIFF stands for Immediately invoked function expression  - It means by wrapping a function in parentheses (function)() which will trigger the function Immediately.  
 
 Q: Briefly explain namespacing and how it’s useful.
 A: namespacing is a technique that is used to avoid naming collisions e.g by encapsulating the inner workings of our program into objects.
+
+---------------------
+FACTORY FUNCTIONS AND THE MODULE PATTERN
+---------------------
+
+Q: Describe the pros and cons of using classes in JavaScript.
+A: Making class more user friendly will assist developers as class is something everyone learns.
+A: Concept of classes makes things brittle. Prototypes are better and very flexible.
+
+Q: Briefly discuss how JavaScript’s object creation differs from a language like Java or Ruby.
+A: Within Java or Ruby objects need a blueprint to exist which is called "class" and within javascript objects can be created without a it.
+
+Q: Explain the differences between using a class to define a constructor and other prototype methods.
+A: An important difference between function declarations and class declarations is that while functions can be called in code that appears before they are defined, classes must be defined before they can be constructed.
+
+Q: Explain what “getters” & “setters” are.
+A: They are methods used to get or set the property values;
+A: get” is the keyword utilized to define a getter method for retrieving the property value, whereas “set” defines a setter method for changing the value of a specific property.
+
+Q: Understand what computed names and class fields are.
+A: computed names allows you to dynamically compute names of the object properties in JavaScript object literal notation and class function.
+A: Class field is another way to define properties within a class function without it being inside a constructor.
+
+Q: Describe function binding.
+A: Function binding is being able to utilize the "this" keyword separate from its object - able to use the same value referenced in one object within another.
+
+Q: Be able to use inheritance with classes.
+A: inheritance can be used with classes by utilizing the "extend & super" keywords -  The super keyword is used to call corresponding methods of super class. This is one advantage over prototype-based inheritance.
+
+Q: Briefly talk about the conflict in JS with functional programming and classes.
+A: Currently the dispute between functional and classes is that some JS developer believe that the class function is not needed as you can use function programming to achieve a similar affect to class - they also believe that class is syntax sugar to make it easier to read.
+ 

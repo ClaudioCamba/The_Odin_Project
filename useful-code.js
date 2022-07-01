@@ -139,7 +139,7 @@ var Module = (function () {
 
 Module.publicMethod()
 
-
+// Factory Inheritance 
 const shoutHello = (firstname) => {
     shoutHi = () => console.log('HELLOOOO!!! ' + firstname);
     return { shoutHi }
@@ -154,4 +154,47 @@ const sayName = (firstname) => {
 let robert = sayName('Robby');
 
 robert.quietName();
+robert.shoutHi();
 
+// Basic class syntax
+class MyClass {
+    // prop = value; // property
+
+    // constructor(...) { // constructor
+    //     // ...
+    // }
+
+    // method(...) { } // method
+
+    // get something(...) { } // getter method
+    // set something(...) { } // setter method
+
+    // [Symbol.iterator]() { } // method with computed name (symbol here)
+    // ...
+}
+
+class User {
+
+    constructor(name) {
+        // invokes the setter
+        this.name = name;
+    }
+
+    get name() {
+        return this._name;
+    }
+
+    set name(value) {
+        if (value.length < 4) {
+            alert("Name is too short.");
+            return;
+        }
+        this._name = value;
+    }
+
+}
+
+let user1 = new User("John");
+alert(user1.name); // John
+
+user1 = new User(""); // Name is too short.
