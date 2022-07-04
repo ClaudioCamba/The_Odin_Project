@@ -1200,7 +1200,6 @@ A:
 
   robert.quietName();
 
-
 Q: Explain the module pattern.
 A: The module pattern is similar to factory function but instead of creating multiple objects it is wrapped in a IIFE, it also wrapped within an anonymous closures which only give access to objects that have been returned.
 
@@ -1241,3 +1240,46 @@ A: inheritance can be used with classes by utilizing the "extend & super" keywor
 Q: Briefly talk about the conflict in JS with functional programming and classes.
 A: Currently the dispute between functional and classes is that some JS developer believe that the class function is not needed as you can use function programming to achieve a similar affect to class - they also believe that class is syntax sugar to make it easier to read.
  
+---------------------
+ES6 MODULES
+---------------------
+
+Q: Explain what npm is and where it was commonly used before being adopted on the frontend.
+A: NPM stand for Node Package Manager it is a software registry, it was used originally a package manager made specifically for node.js, a javascript runtime designed to run on the server.
+A: npm is the package manager for the Node JavaScript platform. It puts modules in place so that node can find them, and manages dependency conflicts intelligently. It is extremely configurable to support a wide variety of use cases. Most commonly, it is used to publish, discover, install, and develop node programs.
+
+Q: Describe what npm init does and what package.json is.
+A: It initiates npm and prompts you with several questions and generate a new file named "package.json" - this is a configuration file that npm uses to save all project information.
+
+Q: Know how to install packages using npm.
+A: By using the CLI and typing "npm ini" within the folder containing "index.html" and then typing "npm install <package> --save"
+
+Q: Describe what a JavaScript module bundler like webpack is.
+A: A JavaScript module bundler is a tool that gets around the problem with a build step (which has access to the file system) to create a final output that is browser compatible (which doesn’t need access to the file system).
+
+Q: Explain what the concepts “entry” and “output” mean as relates to webpack.
+A: The entry is where webpack imports the files by their name and the output is the compiled code from the entry point.
+A: The entry object is where webpack looks to start building the bundle. The context is an absolute string to the directory that contains the entry files.
+A: The output in Webpack is an object holding the path where our bundles and assets will go, as well as the name the entries will adopt.
+
+Q: Briefly explain what a development dependency is.
+A: It means files you need in order for your code to run properly without bugs or issues
+A: Development dependencies, or devDependencies are packages that are consumed by requiring them in files or run as binaries, during the development phase. These are packages that are only necessary during development and not necessary for the production build
+
+Q: Explain what “transpiling code” means and how it relates to frontend development.
+A: Transpiling code means converting the code in one language to code in another similar language. This is an important part of frontend development — since browsers are slow to add new features, new languages were created with experimental features that transpile to browser compatible languages.
+
+Q: Briefly describe what a task runner is and how it’s used in frontend development.
+A: Is a tool that automates different parts of the build process. For frontend development, tasks include minifying code, optimizing images, running tests, etc.
+
+Q: Describe how to write an npm automation script.
+A: By writing commands scripts within the package.json object
+A: https://peterxjang.com/blog/modern-javascript-explained-for-dinosaurs.html#using-a-task-runner-(npm-scripts)
+
+Q: Explain one of the main benefits of writing code in modules.
+A: There are many benefits to writing your code in modules. One of the most compelling is code reuse. If, for instance, you have written some functions that manipulate the DOM in a specific way, putting all of those into their own file as a ‘module’ means that you can copy that file and re-use it very easily!
+
+Q: Explain “named exports” and “default exports”.
+A: named exports is used for exporting multiple functions and default is for single function.
+A: 
+Named exports allow us to share multiple objects, functions or variables from a single file and were introduced with the release of ES2015. Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
