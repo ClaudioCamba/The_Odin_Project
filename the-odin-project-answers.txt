@@ -1281,5 +1281,60 @@ A: There are many benefits to writing your code in modules. One of the most comp
 
 Q: Explain “named exports” and “default exports”.
 A: named exports is used for exporting multiple functions and default is for single function.
-A: 
-Named exports allow us to share multiple objects, functions or variables from a single file and were introduced with the release of ES2015. Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
+A: Named exports allow us to share multiple objects, functions or variables from a single file and were introduced with the release of ES2015. Named exports are imported with curly braces in various files and must be imported using the name of the object, function or variable that was exported.
+
+---------------------
+WEBPACK
+---------------------
+
+Q: How do you load CSS using webpack?
+A: https://webpack.js.org/guides/asset-management/#loading-css
+  1: run "npm install --save-dev style-loader css-loader" in the CLI
+  2: Add rules so webpack can determine which files to target
+      test: /\.css$/i,
+      use: ['style-loader', 'css-loader'],
+  3: Add style.css file into the src directory
+  4: add "import './style.css';" into the index.js file
+  5: run "npm run build" and view your index.html file on the browser to see the changes. 
+
+Q: How do you load images using webpack?
+A: https://webpack.js.org/guides/asset-management/#loading-images
+  1: Add rules so webpack can determine which files to target
+      test: /\.(png|svg|jpg|jpeg|gif)$/i,
+      type: 'asset/resource',
+  3: Add image file into the src directory
+  4: add "import 'import Icon from './icon.png';" into the index.js file
+  5: run "npm run build" and view your index.html file on the browser to see the changes. 
+
+Q: How do you load fonts using webpack?
+A: https://webpack.js.org/guides/asset-management/#loading-fonts
+  1: Add rules so webpack can determine which files to target
+      test: /\.(woff|woff2|eot|ttf|otf)$/i,
+      type: 'asset/resource',
+  3: Add font file into the src directory
+  4: Import font into css by adding the "@font-face" function with the font values
+  5: run "npm run build" and view your index.html file on the browser to see the changes. 
+
+Q: How do you load data using webpack?
+A: https://webpack.js.org/guides/asset-management/#loading-data
+  1: run "npm install --save-dev csv-loader xml-loader" in the CLI
+  2: Add rules so webpack can determine which files to target
+    {
+      test: /\.(csv|tsv)$/i,
+      use: ['csv-loader'],
+    },
+    {
+      test: /\.xml$/i,
+      use: ['xml-loader'],
+    },
+  3: Add data xml/cvs/other file into the src directory
+  4: add import script with the correlating data file format 
+      import Data from './data.xml';
+      import Notes from './data.csv';
+  5: run "npm run build" and view your index.html file on the browser to see the changes. 
+
+Q: How would you track errors in bundled source code?
+A: https://webpack.js.org/guides/development/#using-source-maps
+    1: By using source maps (inline-source-map) within the webpack config file (devtool: 'inline-source-map',)
+    2: run "npm run build" and view your index.html file on the browser to see the changes.
+    error e,g: Uncaught ReferenceError: cosnole is not defined at HTMLButtonElement.printMe (print.js:2)
