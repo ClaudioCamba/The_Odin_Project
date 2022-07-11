@@ -1,0 +1,5 @@
+---------------------
+SETUP REPOSITORY
+---------------------
+1. create new repository on github
+2. clone repository to your local machine

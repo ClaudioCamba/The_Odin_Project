@@ -1338,3 +1338,29 @@ A: https://webpack.js.org/guides/development/#using-source-maps
     1: By using source maps (inline-source-map) within the webpack config file (devtool: 'inline-source-map',)
     2: run "npm run build" and view your index.html file on the browser to see the changes.
     error e,g: Uncaught ReferenceError: cosnole is not defined at HTMLButtonElement.printMe (print.js:2)
+
+---------------------
+OOP PRINCIPLES
+---------------------
+
+Information holder – an object designed to know certain information and provide that information to other objects.
+Structurer – an object that maintains relationships between objects and information about those relationships.
+Service provider – an object that performs specific work and offers services to others on demand.
+Controller – an object designed to make decisions and control a complex task.
+Coordinator – an object that doesn’t make many decisions but, in a rote or mechanical way, delegates work to other objects.
+Interfacer – an object that transforms information or requests between distinct parts of a system.
+
+Q: Explain the “Single Responsibility Principle”.
+A: Single Responsibility Principle is means the class,module or object should have one main responsibility - e.g The application logic should not also contain function which render DOM elements.
+
+Q: Briefly explain the additional SOLID principles.
+A: 
+    Single responsibility principle: A class should have one and only one reason to change, meaning that a class should only have one job.
+    Open-closed Principle: Objects or entities should be open for extension, but closed for modification.
+    Liskov substitution principle: Let q(x) be a property provable about objects of x of type T. Then q(y) should be provable for objects y of type S where S is a subtype of T.
+    Interface segregation principle: A client should never be forced to implement an interface that it doesn’t use or clients shouldn’t be forced to depend on methods they do not use.
+    Dependency inversion principle: Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
+
+Q: Explain what “tightly coupled” objects are and why we want to avoid them.
+A: Tight coupled is when a module knows about another module and relies on it and we want to avoid this to make the module more reusable and interchangeable.
+A: There are many reasons to avoid tightly coupling your modules. We discussed some of these in the first chapter of this series. Recall that one of the goals when creating highly scalable and maintainable JavaScript applications is that any module can be easily swapped out at any time for a different module. Reusability is also a major reason to minimize coupling. Ideally, we would like to maximize code reuse and the ability to test modules independently.
