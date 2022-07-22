@@ -1362,5 +1362,21 @@ A:
     Dependency inversion principle: Entities must depend on abstractions not on concretions. It states that the high level module must not depend on the low level module, but they should depend on abstractions.
 
 Q: Explain what “tightly coupled” objects are and why we want to avoid them.
-A: Tight coupled is when a module knows about another module and relies on it and we want to avoid this to make the module more reusable and interchangeable.
-A: There are many reasons to avoid tightly coupling your modules. We discussed some of these in the first chapter of this series. Recall that one of the goals when creating highly scalable and maintainable JavaScript applications is that any module can be easily swapped out at any time for a different module. Reusability is also a major reason to minimize coupling. Ideally, we would like to maximize code reuse and the ability to test modules independently.
+A: 
+  Tight coupled is when a module knows about another module and relies on it and we want to avoid this to make the module more reusable and interchangeable.
+  There are many reasons to avoid tightly coupling your modules. We discussed some of these in the first chapter of this series. Recall that one of the goals when creating highly scalable and maintainable JavaScript applications is that any module can be easily swapped out at any time for a different module. Reusability is also a major reason to minimize coupling. Ideally, we would like to maximize code reuse and the ability to test modules independently.
+
+---------------------
+LINTING
+---------------------
+
+Q: What is linting?
+A: It is running a tool which checks your code for errors/ mistakes
+
+Q: Which problems can linting prevent?
+A: prevents bugs, saves time, makes your code better, potential XSS security holes and readability problems.
+
+Q: Why should you use Prettier?
+A: Make my code much more readable and also re-format my code to adhere with company guidelines.
+
+

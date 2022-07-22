@@ -5,7 +5,7 @@ html {
 
 table {
   border-collapse: collapse;
-  border: 2px solid #c8c8c8;
+  border: 2px solid rgb(200, 200, 200);
   letter-spacing: 1px;
   font-size: 0.8rem;
   color: var(--color-error-text);
@@ -13,27 +13,21 @@ table {
 
 table td,
 table th {
-  border: 1px solid #bebebe;
+  border: 1px solid rgb(190, 190, 190);
   padding: 10px 20px;
 }
-
 table th {
-  background-color: #ebebeb;
+  background-color: rgb(235, 235, 235);
 }
-
 table td {
   text-align: center;
 }
-
 table tr:nth-child(even) td {
-  background-color: #fafafa;
+  background-color: rgb(250, 250, 250);
 }
-
 table tr:nth-child(odd) td {
-  background-color: whitesmoke;
+  background-color: rgb(245, 245, 245);
 }
-
 table caption {
   padding: 10px;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
