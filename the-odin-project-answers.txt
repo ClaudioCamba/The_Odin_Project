@@ -1379,4 +1379,15 @@ A: prevents bugs, saves time, makes your code better, potential XSS security hol
 Q: Why should you use Prettier?
 A: Make my code much more readable and also re-format my code to adhere with company guidelines.
 
+---------------------
+DYNAMIC USER INTERFACE INTERACTIONS
+---------------------
 
+Q: What are some different types of navigation menus?
+A:
+
+Q: What are the alternatives to hamburger menus?
+A:
+
+Q: What are the downsides of hamburger menus?
+A:
