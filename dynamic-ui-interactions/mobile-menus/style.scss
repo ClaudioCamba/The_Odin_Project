@@ -204,6 +204,7 @@ body > div {
       left: -5rem;
       top: -5rem;
       opacity: 0;
+      transition: width height 0.25s ease-in-out;
       transition: all 0.25s ease-in-out;
     }
   }
@@ -212,25 +213,29 @@ body > div {
     ul {
       left: 0;
       top: 0;
-      width: 1000px;
-      height: 65vh;
+      width: 100%;
+      height: 75vh;
       border-radius: 0 0 100% 0;
       position: absolute;
-      border-bottom: 5rem solid $l-green;
+      border-right: 10rem solid #93c47c;
       transition: all 0.35s ease-in-out;
       opacity: 1;
-      padding-left: 5rem;
-      padding-top: 5rem;
       display: grid;
       grid-template-columns: 1fr;
+      grid-auto-rows: -webkit-max-content;
       grid-auto-rows: max-content;
       gap: 1rem;
+
+      li:first-child {
+        margin-top: 5rem;
+      }
 
       li {
         max-width: 35rem;
         font-size: 2rem;
         color: #fff;
         letter-spacing: 0.1rem;
+        margin-left: 5rem;
       }
     }
 
