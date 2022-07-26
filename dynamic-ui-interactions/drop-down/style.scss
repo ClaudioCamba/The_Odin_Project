@@ -1,8 +1,10 @@
+// Reset
 /* Reset CSS ============================ */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -91,7 +93,6 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -106,21 +107,17 @@ nav,
 section {
   display: block;
 }
-
 body {
   line-height: 1;
 }
-
 ol,
 ul {
   list-style: none;
 }
-
 blockquote,
 q {
   quotes: none;
 }
-
 blockquote:before,
 blockquote:after,
 q:before,
@@ -128,12 +125,10 @@ q:after {
   content: "";
   content: none;
 }
-
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 input:focus,
 select:focus,
 textarea:focus,
@@ -141,6 +136,7 @@ button:focus {
   outline: none;
 }
 
+// Navigator
 body {
   display: flex;
   justify-content: center;
@@ -152,22 +148,23 @@ body {
   flex-direction: row;
   gap: 16px;
   margin: 16px;
+
+  li {
+    cursor: pointer;
+    height: fit-content;
+  }
+
+  li ul {
+    text-align: center;
+    max-height: 0;
+    transition: max-height 0.25s ease-out;
+    overflow: hidden;
+  }
+
+  li.active ul {
+    display: flex;
+    flex-direction: column;
+    max-height: 200px;
+    transition: max-height 0.35s ease-in;
+  }
 }
-.drop-down li {
-  cursor: pointer;
-  height: -webkit-fit-content;
-  height: -moz-fit-content;
-  height: fit-content;
-}
-.drop-down li ul {
-  text-align: center;
-  max-height: 0;
-  transition: max-height 0.25s ease-out;
-  overflow: hidden;
-}
-.drop-down li.active ul {
-  display: flex;
-  flex-direction: column;
-  max-height: 200px;
-  transition: max-height 0.35s ease-in;
-}/*# sourceMappingURL=style.css.map */
