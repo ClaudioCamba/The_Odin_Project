@@ -1,10 +1,8 @@
-// Reset
 /* Reset CSS ============================ */
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html,
 body,
 div,
@@ -93,6 +91,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 /* HTML5 display-role reset for older browsers */
 article,
 aside,
@@ -107,17 +106,21 @@ nav,
 section {
   display: block;
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -125,10 +128,12 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 input:focus,
 select:focus,
 textarea:focus,
@@ -136,37 +141,33 @@ button:focus {
   outline: none;
 }
 
-// Main Style
 body {
   background-color: lightblue;
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-
-  img {
-    width: auto;
-    height: auto;
-  }
+}
+body img {
+  width: auto;
+  height: auto;
 }
 
 #slider-component {
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;
-
-  .image-slider {
-    width: 400px;
-    height: 400px;
-    background: #fff;
-    overflow-x: scroll;
-    border: 50px solid #fff;
-    position: relative;
-    display: flex;
-    align-items: center;
-
-    .slider-wrap {
-      display: flex;
-      flex-direction: row;
-    }
-  }
 }
+#slider-component .image-slider {
+  width: 400px;
+  height: 400px;
+  background: #fff;
+  overflow-x: scroll;
+  border: 50px solid #fff;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+#slider-component .image-slider .slider-wrap {
+  display: flex;
+  flex-direction: row;
+}/*# sourceMappingURL=style.css.map */
