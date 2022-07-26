@@ -144,6 +144,9 @@ button:focus {
 :root {
   font-size: 16px;
 }
+:root * {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
 body > div {
   max-width: 768px;
@@ -175,19 +178,59 @@ body > div nav .menu-open {
   left: 0;
   padding-right: 1rem;
   margin-top: 5rem;
+  transition: left 0.25s ease-in-out;
 }
 body > div nav .menu-close {
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  bottom: 5rem;
+  bottom: -5rem;
+  transition: bottom 0.25s ease-in;
 }
 body > div nav ul {
   background: #6ba84f;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  position: absolute;
+  border: 0rem solid #93c47c;
+  border-radius: 0 0 100% 0;
+  overflow: hidden;
+  left: -5rem;
+  top: -5rem;
+  opacity: 0;
+  transition: all 0.25s ease-in-out;
+}
+body > div nav.active ul {
+  left: 0;
+  top: 0;
   width: 1000px;
-  height: 75vh;
-  border-bottom-right-radius: 100%;
+  height: 65vh;
+  border-radius: 0 0 100% 0;
   position: absolute;
   border-bottom: 5rem solid #93c47c;
+  transition: all 0.35s ease-in-out;
+  opacity: 1;
+  padding-left: 5rem;
+  padding-top: 5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-auto-rows: -webkit-max-content;
+  grid-auto-rows: max-content;
+  gap: 1rem;
+}
+body > div nav.active ul li {
+  max-width: 35rem;
+  font-size: 2rem;
+  color: #fff;
+  letter-spacing: 0.1rem;
+}
+body > div nav.active .menu-close {
+  bottom: 5rem;
+  transition: bottom 0.35s ease-in-out;
+}
+body > div nav.active .menu-open {
+  left: -6rem;
+  transition: left 0.35s ease-in-out;
 }/*# sourceMappingURL=style.css.map */
