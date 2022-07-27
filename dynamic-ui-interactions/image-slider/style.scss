@@ -153,6 +153,7 @@ body {
 #slider-component {
   display: grid;
   grid-template-columns: 0.1fr 1fr 0.1fr;
+  grid-template-rows: 1fr auto;
 
   .image-slider {
     width: 400px;
@@ -167,6 +168,18 @@ body {
     .slider-wrap {
       display: flex;
       flex-direction: row;
+    }
+  }
+
+  .nav-dots {
+    grid-area: 2 / 1 / 3 / 4;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    button.active {
+      background-color: red;
     }
   }
 }
