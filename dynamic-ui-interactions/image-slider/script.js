@@ -16,7 +16,7 @@ class Slide {
         btn.setAttribute('data-pos', this.position);
 
         btn.addEventListener('click', () => {
-            sliderComponent.sliderPos(this.start);
+            sliderComponent.sliderPos(this);
             sliderComponent.activeSlide(this.object);
         });
 
@@ -60,21 +60,20 @@ const sliderComponent = (() => {
                     startPoint += slide.width;
                 }
             }
+
             imgs[i].setAttribute('data-pos', i);
             slides.push(new Slide(imgs[i], slideVal.width, startPoint, wrapElem.width, i));
         };
-        console.log(slides);
     };
 
     // Next Functions
     const nextSlide = () => {
         for (let i = 0; i < slides.length; i++) {
             if (slides[i].start > imgSlider.scrollLeft) {
-                sliderPos(slides[i].start);
-                activeSlide(slides[i]);
+                sliderPos(slides[i]);
                 break;
             } else if (slides[slides.length - 1].start === imgSlider.scrollLeft) {
-                sliderPos(0);
+                sliderPos(slides[0]);
             }
         }
     }
@@ -83,8 +82,7 @@ const sliderComponent = (() => {
     const prevSlide = () => {
         for (let i = slides.length - 1; i >= 0; i--) {
             if (slides[i].start < imgSlider.scrollLeft) {
-                sliderPos(slides[i].start);
-                activeSlide(slides[i]);
+                sliderPos(slides[i]);
                 break;
             }
         }
@@ -102,7 +100,8 @@ const sliderComponent = (() => {
 
     // Control slider position
     const sliderPos = (p) => {
-        return imgSlider.scroll({ left: p, top: 0, behavior: 'smooth' });
+        activeSlide(p); // Active slides
+        return imgSlider.scroll({ left: p.start, top: 0, behavior: 'smooth' });
     };
 
     // Active dot
@@ -116,7 +115,13 @@ const sliderComponent = (() => {
         }
     }
 
-    return { createSlides, nextSlide, prevSlide, navDots, sliderPos, activeSlide, btnPrev, btnNext }
+    // Autoplay
+    const autoPlay = setInterval(() => { nextSlide() }, 5000);
+    const autoStop = () => { clearInterval(autoPlay) }
+
+
+
+    return { createSlides, nextSlide, prevSlide, navDots, sliderPos, activeSlide, btnPrev, btnNext, slides }
 })();
 
 // Run main function after page has fully loaded
