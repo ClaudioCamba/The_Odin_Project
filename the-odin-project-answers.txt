@@ -1384,10 +1384,24 @@ DYNAMIC USER INTERFACE INTERACTIONS
 ---------------------
 
 Q: What are some different types of navigation menus?
-A:
+A: https://uxplanet.org/top-8-mobile-navigation-menu-design-for-your-inspiration-8a2d925bffc0
+  1). Tabber — Classic navigation menu
+  2). Rectangular, grid navigation menu
+  3). Drawer navigation
+  4). Rudder navigation
 
 Q: What are the alternatives to hamburger menus?
-A:
+A: 
+  1. Tabs
+  2. Tabs with a ‘more’ option
+  3. Progressively collapsing menu
+  4. Scrollable navigation
+  5. Dropdown menus
 
 Q: What are the downsides of hamburger menus?
-A:
+A: hurts UX metrics due of its low discoverability and efficiency
+  https://medium.com/@kollinz/misused-mobile-ux-patterns-84d2b6930570#6d1e
+  https://www.nngroup.com/articles/hamburger-menus/
+  https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/
+  https://www.lukew.com/ff/entry.asp?1945
+  https://jamesarcher.me/hamburger-menu
