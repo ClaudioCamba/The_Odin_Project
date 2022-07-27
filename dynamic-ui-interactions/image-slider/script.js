@@ -7,6 +7,8 @@ class Slide {
         this.parentW = parentW;
         this.position = position;
     }
+
+    getStart() { start };
 };
 
 const sliderComponent = () => {
@@ -36,8 +38,27 @@ const sliderComponent = () => {
     };
 
     // Prev / Next Functions
-    const nextSlide = () => { imgSlider.scroll({ left: (imgSlider.scrollLeft + 400), top: 0, behavior: 'smooth' }); }
-    const prevSlide = () => { imgSlider.scroll({ left: (imgSlider.scrollLeft - 400), top: 0, behavior: 'smooth' }); }
+    const nextSlide = () => {
+        for (let i = 0; i < slides.length; i++) {
+            if (slides[i].start > imgSlider.scrollLeft) {
+                imgSlider.scroll({ left: slides[i].start, top: 0, behavior: 'smooth' });
+                break;
+            } else if (slides[slides.length - 1].start === imgSlider.scrollLeft) {
+                imgSlider.scroll({ left: 0, top: 0, behavior: 'smooth' });
+            }
+        }
+
+    }
+
+
+    const prevSlide = () => {
+        for (let i = slides.length - 1; i >= 0; i--) {
+            if (slides[i].start < imgSlider.scrollLeft) {
+                imgSlider.scroll({ left: slides[i].start, top: 0, behavior: 'smooth' });
+                break;
+            }
+        }
+    }
 
     btnPrev.addEventListener('click', prevSlide);
     btnNext.addEventListener('click', function () {
