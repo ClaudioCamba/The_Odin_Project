@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Form validation: Task 1</title>
+  </head>
+
+  <body>
+    <form novalidate>
+      <ul>
+        <li>
+          <label for="uname">User name:</label>
+          <input
+            type="text"
+            name="uname"
+            id="uname"
+            pattern="[a-z0-9-.]{5,20}"
+            minlength="5"
+            maxlength="20"
+            value="g.twe"
+            required
+          />
+          <span class="error" aria-live="polite"></span>
+        </li>
+        <li>
+          <label for="mail">
+            <span>Please enter an email address:</span>
+            <input
+              type="email"
+              id="mail"
+              name="mail"
+              pattern="[a-z-A-Z-0-9]+@bigcorp\.eu"
+              required
+              minlength="10"
+              value="t@bigcorp.eu"
+            />
+            <span class="error" aria-live="polite"></span>
+          </label>
+        </li>
+
+        <li>
+          <label for="phone">Phone number:</label>
+          <input
+            type="tel"
+            name="phone"
+            id="phone"
+            pattern="[0-9]{10}|[0-9-]{4}[0-9-]{4}[0-9]{4}|[0-9.]{4}[0-9.]{4}[0-9]{4}|[0-9 ]{4}[0-9 ]{4}[0-9]{4}"
+            required
+            value="123-123-1234"
+          />
+          <span class="error" aria-live="polite"></span>
+        </li>
+        <li>
+          <label for="comment">Comment:</label>
+          <textarea
+            name="comment"
+            id="comment"
+            minlength="20"
+            maxlength="200"
+            required
+          ></textarea>
+          <span class="error" aria-live="polite"></span>
+        </li>
+
+        <li>
+          <button>Submit comment</button>
+        </li>
+      </ul>
+    </form>
+  </body>
+</html>

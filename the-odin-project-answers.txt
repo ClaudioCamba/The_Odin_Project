@@ -1405,3 +1405,22 @@ A: hurts UX metrics due of its low discoverability and efficiency
   https://lmjabreu.com/post/why-and-how-to-avoid-hamburger-menus/
   https://www.lukew.com/ff/entry.asp?1945
   https://jamesarcher.me/hamburger-menu
+
+---------------------
+FORM VALIDATION WITH JAVASCRIPT
+---------------------
+
+Q: Understand the importance of validating HTML forms before submitting them to a server.
+A:
+
+Q: Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.
+A:
+
+Q; Understand JavaScript Constraint Validation API provides more control and customization of form validation.
+A:
+
+Q: Use JavaScript to write custom error messages and add custom styling to the errors.
+A:
+
+Q: Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
+A:
