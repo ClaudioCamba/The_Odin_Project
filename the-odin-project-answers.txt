@@ -1411,16 +1411,20 @@ FORM VALIDATION WITH JAVASCRIPT
 ---------------------
 
 Q: Understand the importance of validating HTML forms before submitting them to a server.
-A:
+A: 
+    It allows to catch invalid data on the client-side, the user can fix it straight away.
+    If it gets to the server and its rejected a noticeable delay is caused by a round trip to the server and then back to the client-side to tell the user to fix their data.
 
 Q: Describe the two types of client-side form validation, built-in form validation and validation using JavaScript.
-A:
+A: 
+    Built-in validation is enabled through HTML element attributes without using javascript.
+    Validation using javascript is done by using constraint validation API and other conditional methods. 
 
 Q; Understand JavaScript Constraint Validation API provides more control and customization of form validation.
-A:
+A: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_using_javascript
 
 Q: Use JavaScript to write custom error messages and add custom styling to the errors.
-A:
+A: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_constraint_validation_api
 
 Q: Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
-A:
+A: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api
