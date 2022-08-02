@@ -36,3 +36,14 @@ CHROME DEVTOOL
 - More options (3 dots) > More tools > CSS Overview
     - Animation inspection
     - CSS inspection (improvement)
+
+
+var body = document.body,
+    html = document.documentElement;
+
+var height = Math.max( body.scrollHeight, body.offsetHeight, 
+                       html.clientHeight, html.scrollHeight, html.offsetHeight );
+
+let position = document.documentElement.scrollTop || document.body.scrollTop;
+
+console.log(position/height*100);

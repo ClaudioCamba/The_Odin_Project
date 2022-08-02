@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>Form Validation</title>
   </head>
   <body>
@@ -13,13 +14,30 @@
     <!-- Zip Code -->
     <!-- Password -->
     <!-- Password Confirm -->
-    <!-- >> EVENTLISTENER INPUT & CLICKS -->
+
     <form>
-      <label for="email"></label>
-      <label for="country"></label>
-      <label for="zipcode"></label>
-      <label for="password"></label>
-      <label for="vpassword"></label>
+      <label for="email">
+        Email:
+        <input type="email" name="email" id="email" />
+        <span class="error" aria-live="polite"></span>
+      </label>
+      <label for="country"
+        >Country:
+        <input type="text" name="country" id="country" />
+        <span class="error" aria-live="polite"></span>
+      </label>
+      <label for="zipcode">
+        <input type="text" name="zipcode" id="zipcode" />
+        <span class="error" aria-live="polite"></span>
+      </label>
+      <label for="password">
+        <input type="password" name="password" id="password" />
+        <span class="error" aria-live="polite"></span>
+      </label>
+      <label for="vpassword">
+        <input type="vpassword" name="vpassword" id="vpassword" />
+        <span class="error" aria-live="polite"></span>
+      </label>
       <button>Submit</button>
     </form>
   </body>

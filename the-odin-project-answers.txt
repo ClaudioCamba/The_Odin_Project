@@ -1428,3 +1428,33 @@ A: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#the_cons
 
 Q: Understand forms can also be validated without using Constraint Validation API, which is useful in certain cases.
 A: https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation#validating_forms_without_a_built-in_api
+
+---------------------
+ASYNCHRONOUS CODE
+---------------------
+
+Q: What is a callback?
+A: A callback function is a function that is passed into another function which is then invoked inside the outer function to complete some ind of routine or action.
+
+Q: What is a promise?
+A: Promises are a way to write async code that still appears as though it is executing in a top-down way, and handles more types of errors due to encouraged use of try/catch style error handling.
+
+    Promise is an object that might produce a value at some point in the future
+    Its a code set to return with some form of value which can return at any point later on.
+
+Q: When should you use promises over callbacks?
+A: You should use promise almost all the time because of its clear syntax and additional methods such as .then()
+
+Q: What does the .then() function do?
+A: The then() method allows you to react to the value returned by the promise 
+E.G:
+    new Promise(function(resolve, reject) {
+    // A mock async action using setTimeout
+      setTimeout(function() { resolve(10); }, 3000);
+    })
+    .then(function(result) {
+      console.log(result);
+    });
+
+    // From the console:
+    // 10
