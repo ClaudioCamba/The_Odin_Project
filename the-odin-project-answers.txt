@@ -1458,3 +1458,23 @@ E.G:
 
     // From the console:
     // 10
+
+---------------------
+WORKING WITH APIS
+---------------------
+
+Q: What is an API?
+A: "Application Programming Interfaces" are servers that are created for serving data for external use (in websites and apps).
+
+Q: How is access to an API restricted?
+A: Some external APIs are restricted due ot requiring an API Key.
+
+Q: How do you fetch and extract data from an API?
+A: You can access APIs by making a fetch/ajax/XMLHttpRequest call using javascript
+
+Q: Why might your API request be blocked by the browser, and how might you fix this?
+A: By default browsers restrict external request for security reasons, By adding {mode: 'cors'} after the URL it should allow access. (Cross Origin Resource)
+
+fetch('url.url.com/api', {
+  mode: 'cors'
+});
