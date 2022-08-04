@@ -1478,3 +1478,34 @@ A: By default browsers restrict external request for security reasons, By adding
 fetch('url.url.com/api', {
   mode: 'cors'
 });
+
+---------------------
+ASYNC AND AWAIT
+---------------------
+
+Q: How do you declare an async function?
+A: by appending 'async' word before the function.
+  E.G: 
+    async function f() {
+      let response = await fetch('http://no-such-url');
+    }
+
+Q: What does the async keyword do?
+A:  
+    The async keyword is what lets the JavaScript engine know that you are declaring an asynchronous function. 
+    This is required to use await inside any function.
+    The async keyword ensures the function returns a promise.
+
+Q: What does the await keyword do?
+A: 
+  It tells JavaScript to wait for an asynchronous action to finish before continuing the function. It’s like a ‘pause until done’ keyword.
+  The 'await' keyword makes javascript wait until that promise settles and returns its results.
+
+Q: What is returned from an async function?
+A: a Promise is returned from an async function
+
+Q: What happens when an error is thrown inside an async function?
+A: If it isn't caught using reject/catch/throw error it is swallowed and the runtime system will abort the program (i.e. crash) and an exception message will print to the console.
+
+Q: How can you handle errors inside an async function?
+A: You can handle the errors by using the try/catch statements
