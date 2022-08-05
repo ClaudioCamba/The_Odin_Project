@@ -4,7 +4,7 @@ const input = document.querySelector("input");
 
 // Making fetch call to giphy url
 const fetchGif = async (s) => {
-  const response = await fetch("https://api.giphy.com/v1/gifs/translate?api_key=cZGRaJyblnhv0KTrPpNRFIDPOEvrhXk7&s=" + s, { mode: "cors" });
+  const response = await fetch("https://api.giphy.com/v1/gifs/translate?api_key=KEY_HERE&s=" + s, { mode: "cors" });
   response.json().then((response) => {
     img.src = response.data.images.original.url;
   });
